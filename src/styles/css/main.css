@@ -1,0 +1,13 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --primary-color: #004a87;
+  --secondary-color: #fed700;
+  --color-text: #4a4a4a;
+  --color-grey: #d9d9d9;
+  --color-black: #333333;
+  --color-white: #ffffff;
+  --color-orange: #ff7f0a;
+}
