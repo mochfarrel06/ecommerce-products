@@ -78,7 +78,6 @@ function ProductPage() {
     setSortedProducts(paginatedProducts);
   }, [sortOrder, filterOption, productsPerPage, currentPage]);
 
-  const productsPerPages = 10;
   const totalPages = Math.ceil(products.data.length / productsPerPage);
 
   const handlePrevPage = () => {
@@ -96,9 +95,9 @@ function ProductPage() {
   return (
     <div className="products-app">
       <Container>
-        <Row className="mb-5 border px-4 py-2 justify-content-between">
-          <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
-            <span className="me-2">Tampilan:</span>
+        <Row className="menus-products mb-5 border px-4 py-2 justify-content-between">
+          <Col md={2} className="d-flex align-items-center gap-3">
+            Appreance:
             <Button
               onClick={handleToggleView}
               className="bg-white btn-outline-light"
@@ -110,8 +109,8 @@ function ProductPage() {
               )}
             </Button>
           </Col>
-          <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
-            <span className="me-2">Sort</span>
+          <Col md={2} className="d-flex align-items-center gap-3">
+            Sort by:
             <Form.Select
               aria-label="Sort and Filter"
               onChange={handleSortAndFilter}
@@ -123,8 +122,8 @@ function ProductPage() {
               <option value="filter_min">Stock (Min)</option>
             </Form.Select>
           </Col>
-          <Col md={2} className="d-flex align-items-center bg-danger">
-            <span className="me-2">Show:</span>
+          <Col md={2} className="">
+            Show:
             <Form.Select
               aria-label="Products per Page"
               onChange={handleSortAndFilter}
@@ -137,14 +136,7 @@ function ProductPage() {
         </Row>
         <Row className="overflow-hidden products-container">
           {sortedProducts.map((datas, i) => (
-            <Col
-              key={i}
-              lg={toggleView ? 2 : 12}
-              md={toggleView ? 2 : 12}
-              sm={toggleView ? 12 : 12}
-              xs={12}
-              className="mb-3"
-            >
+            <Col key={i} md={toggleView ? 2 : 12} className="">
               {toggleView ? (
                 <Card className="">
                   <Card.Img variant="top" src={datas.primary_image.thumbnail} />
@@ -184,39 +176,14 @@ function ProductPage() {
                 </Card>
               ) : (
                 <Card>
-                  <Card.Header>{datas.name}</Card.Header>
+                  <Card.Header>Featured</Card.Header>
                   <Card.Body>
-                    <Link to={`/products/${datas.product_id}`}>
-                      <Card.Text className="text-truncate">
-                        {datas.name}
-                      </Card.Text>
-                    </Link>
-                    <Card.Title>{datas.price.text_idr}</Card.Title>
-                    <div className="rating w-100 d-flex justify-content-between align-items-center">
-                      <div className="d-flex py-2 gap-1">
-                        <div className="d-flex gap-2 align-items-center">
-                          <StarFill size={14} color="#fed700" />
-                          <Card.Text>
-                            {datas.stats.averageRating
-                              ? datas.stats.averageRating
-                              : "0"}{" "}
-                            |
-                          </Card.Text>
-                        </div>
-                        <div>
-                          {datas.label_groups.map((labels, i) => {
-                            if (i >= 0 && i < 1) {
-                              return (
-                                <Card.Text key={i}>{labels.title}</Card.Text>
-                              );
-                            }
-                          })}
-                        </div>
-                      </div>
-                      <div>
-                        <Card.Text>Stock {datas.stock}</Card.Text>
-                      </div>
-                    </div>
+                    <Card.Title>Special title treatment</Card.Title>
+                    <Card.Text>
+                      With supporting text below as a natural lead-in to
+                      additional content.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
                   </Card.Body>
                 </Card>
               )}

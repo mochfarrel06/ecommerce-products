@@ -11,7 +11,7 @@ export const navLinks = [
   },
   {
     id: 3,
-    path: "",
-    text: "About",
+    path: "/tables",
+    text: "Tables",
   },
 ];
