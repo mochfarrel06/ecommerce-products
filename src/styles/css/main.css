@@ -13,6 +13,13 @@
   --color-orange: #ff7f0a;
 }
 
+.container .row {
+  margin: 0;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  justify-content: space-between;
+}
+
 .navbar {
   position: fixed;
   padding: 0.7rem 0;
@@ -54,17 +61,14 @@ header {
   );
 }
 
+/* Product App */
 .products-app,
 .details-app {
-  padding: 10rem 0;
-  width: 100%;
+  padding: 8rem 0;
 }
 
-.container .row {
+.container .products-container {
   gap: 1rem;
-  margin: 0;
-  --bs-gutter-x: 0;
-  --bs-gutter-y: 0;
 }
 
 .container .col {
@@ -75,7 +79,7 @@ header {
   /* width: 18rem; */
   overflow: hidden;
   background: #ffffff;
-  /* height: 100%; */
+  height: 100%;
 }
 
 .card .card-body {

@@ -15,28 +15,36 @@ function ProductPage() {
   };
 
   return (
-    <div className="w-100 min-vh-100 products-app">
+    <div className="products-app">
       <Container>
-        <Row className="justify-content-between overflow-hidden mb-5">
-          <Col className="d-flex align-items-center ">
-            <p className="">Apprenace</p>
-            <Button onClick={handleToggleView} className="bg-white">
+        <Row className="menus-products mb-5 border px-4 py-2 justify-content-between">
+          <Col md={2} className="d-flex align-items-center gap-3">
+            Appreance:
+            <Button
+              onClick={handleToggleView}
+              className="bg-white btn-outline-light"
+            >
               {toggleView ? (
-                <Grid size={10} color="#000000" />
+                <Grid size={12} color="#000000" />
               ) : (
-                <List size={10} color="#000000" />
+                <List size={12} color="#000000" />
               )}
             </Button>
           </Col>
-          <Col>Sort by</Col>
-          <Col>
+          <Col md={2} className="bg-info">
+            Sort by
+          </Col>
+          <Col md={2} className="bg-info">
+            Sort by
+          </Col>
+          {/* <Col>
             <Form.Select aria-label="Default select example">
               <option>Open this select menu</option>
               <option value="1">One</option>
               <option value="2">Two</option>
               <option value="3">Three</option>
             </Form.Select>
-          </Col>
+          </Col> */}
         </Row>
         {/* <Row>
           {products.data.map((datas, i) => (
@@ -80,11 +88,11 @@ function ProductPage() {
             </Col>
           ))}
         </Row> */}
-        <Row>
+        <Row className="overflow-hidden products-container">
           {products.data.map((datas, i) => (
-            <Col key={i} className={`mb-${toggleView ? 3 : 0}`}>
+            <Col key={i} md={toggleView ? 2 : 12} className="">
               {toggleView ? (
-                <Card className="shadow-sm">
+                <Card className="">
                   <Card.Img variant="top" src={datas.primary_image.thumbnail} />
                   <Card.Body>
                     <Link to={`/products/${datas.product_id}`}>
@@ -121,9 +129,9 @@ function ProductPage() {
                   </Card.Body>
                 </Card>
               ) : (
-                <Card className="w-100 bg-info flex-row flex-norap">
-                  <Card.Header as="h5">Featured</Card.Header>
-                  <Card.Body className="d-flex">
+                <Card>
+                  <Card.Header>Featured</Card.Header>
+                  <Card.Body>
                     <Card.Title>Special title treatment</Card.Title>
                     <Card.Text>
                       With supporting text below as a natural lead-in to
