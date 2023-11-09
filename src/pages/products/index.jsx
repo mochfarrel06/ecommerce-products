@@ -1,18 +1,64 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {Button, Col, Container, Row} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import products from "../../utils/data.json";
 import {StarFill, List, Grid} from "react-bootstrap-icons";
 import {Link} from "react-router-dom";
 import Form from "react-bootstrap/Form";
-import Stack from "react-bootstrap/Stack";
 
 function ProductPage() {
   const [toggleView, setToggleView] = useState(true);
+  const [sortOrder, setSortOrder] = useState("asc");
+  const [sortedProducts, setSortedProducts] = useState([]);
+  const [filterOption, setFilterOption] = useState("all");
 
   const handleToggleView = () => {
     setToggleView(!toggleView);
   };
+
+  const handleSortAndFilter = (e) => {
+    const selectedValue = e.target.value;
+
+    if (selectedValue.startsWith("sort")) {
+      // Pengguna memilih opsi pengurutan
+      setSortOrder(selectedValue.split("_")[1]);
+    } else if (selectedValue.startsWith("filter")) {
+      // Pengguna memilih opsi filter
+      setFilterOption(selectedValue.split("_")[1]);
+    }
+  };
+
+  useEffect(() => {
+    const sortProducts = (array, order) => {
+      return array.slice().sort((a, b) => {
+        const nameA = a.name.toUpperCase();
+        const nameB = b.name.toUpperCase();
+
+        if (order === "asc") {
+          return nameA.localeCompare(nameB);
+        } else {
+          return nameB.localeCompare(nameA);
+        }
+      });
+    };
+
+    const filterProducts = (array, filter) => {
+      if (filter === "all") {
+        return array;
+      } else if (filter === "max") {
+        return array.slice().sort((a, b) => b.stock - a.stock);
+      } else {
+        return array.slice().sort((a, b) => a.stock - b.stock);
+      }
+    };
+
+    const filteredAndSortedProducts = filterProducts(
+      sortProducts([...products.data], sortOrder),
+      filterOption
+    );
+
+    setSortedProducts(filteredAndSortedProducts);
+  }, [sortOrder, filterOption]);
 
   return (
     <div className="products-app">
@@ -31,20 +77,22 @@ function ProductPage() {
               )}
             </Button>
           </Col>
-          <Col md={2} className="bg-info">
-            Sort by
-          </Col>
-          <Col md={2} className="bg-info">
-            Sort by
-          </Col>
-          {/* <Col>
-            <Form.Select aria-label="Default select example">
-              <option>Open this select menu</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+          <Col md={2} className="bg-info d-flex align-items-center gap-3">
+            Sort by:
+            <Form.Select
+              aria-label="Sort and Filter"
+              onChange={handleSortAndFilter}
+            >
+              <option value="filter_all">All</option>
+              <option value="sort_asc">A - Z</option>
+              <option value="sort_desc">Z - A</option>
+              <option value="filter_max">Stock (Max)</option>
+              <option value="filter_min">Stock (Min)</option>
             </Form.Select>
-          </Col> */}
+          </Col>
+          <Col md={2} className="bg-info">
+            Stock
+          </Col>
         </Row>
         {/* <Row>
           {products.data.map((datas, i) => (
@@ -89,7 +137,7 @@ function ProductPage() {
           ))}
         </Row> */}
         <Row className="overflow-hidden products-container">
-          {products.data.map((datas, i) => (
+          {sortedProducts.map((datas, i) => (
             <Col key={i} md={toggleView ? 2 : 12} className="">
               {toggleView ? (
                 <Card className="">
