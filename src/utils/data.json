@@ -1,0 +1,5219 @@
+{
+  "data": [
+    {
+      "name": "Samsung Galaxy A34 5G 8/256GB [Exclusive Gaming Package] - AwesomeLime",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a34-5g-8-256gb-exclusive-gaming-package-awesomelime?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11600227849",
+      "stock": 1000,
+      "price": {
+        "text_idr": "Rp5.399.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/18/7bc46589-2911-493f-9d0e-ba98ae96d5a7.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/18/7bc46589-2911-493f-9d0e-ba98ae96d5a7.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/18/7bc46589-2911-493f-9d0e-ba98ae96d5a7.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "40+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 24,
+        "rating": 99,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A05 4/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a05-4-128gb-silver-gpl-4c663?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11751304308",
+      "stock": 101,
+      "price": {
+        "text_idr": "Rp1.699.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/10/6/f6fe2365-586f-468f-90cc-1564989465e9.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/10/6/f6fe2365-586f-468f-90cc-1564989465e9.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/10/6/f6fe2365-586f-468f-90cc-1564989465e9.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "14 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "GoPay Later 0%",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 0,
+        "rating": 0,
+        "averageRating": "",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A05s 6/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a05s-6-128gb-black-gpl-99c7f?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11751320221",
+      "stock": 111,
+      "price": {
+        "text_idr": "Rp2.299.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/10/6/504b3177-6576-46cb-aaf8-5c7392d290d8.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/10/6/504b3177-6576-46cb-aaf8-5c7392d290d8.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/10/6/504b3177-6576-46cb-aaf8-5c7392d290d8.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "17 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "GoPay Later 0%",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 0,
+        "rating": 0,
+        "averageRating": "",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A14 LTE 4GB/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a14-lte-4gb-128gb-darkred-gpl-f8cc8?extParam=whid%3D11442364%26src%3Dshop",
+      "product_id": "11582788915",
+      "stock": 2000,
+      "price": {
+        "text_idr": "Rp2.111.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/13/e13c034c-1b85-4612-a20a-86c2684753ac.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/13/e13c034c-1b85-4612-a20a-86c2684753ac.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/13/e13c034c-1b85-4612-a20a-86c2684753ac.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "12",
+        "original_price_fmt": "Rp2.399.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "30+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 10,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A04s 4/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a04s-4-128gb-black-gpl-ebd4b?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582694784",
+      "stock": 20,
+      "price": {
+        "text_idr": "Rp1.727.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/13/3c94a6c0-cef0-4103-a3ee-b5c8040bce08.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/13/3c94a6c0-cef0-4103-a3ee-b5c8040bce08.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/13/3c94a6c0-cef0-4103-a3ee-b5c8040bce08.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "21",
+        "original_price_fmt": "Rp2.199.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "70+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 17,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A04e 3/64GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a04e-3-64gb-black-gpl-a61aa?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582365278",
+      "stock": 35,
+      "price": {
+        "text_idr": "Rp1.247.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/13/bc5c00e1-ab28-414f-9697-cbbbb9b61800.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/13/bc5c00e1-ab28-414f-9697-cbbbb9b61800.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/13/bc5c00e1-ab28-414f-9697-cbbbb9b61800.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "17",
+        "original_price_fmt": "Rp1.499.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "28 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 8,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Z Flip5 8/512GB [BMW Exclusive Package] - Graphite",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-z-flip5-8-512gb-bmw-exclusive-package-graphite?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11071427489",
+      "stock": 43,
+      "price": {
+        "text_idr": "Rp18.499.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/1/2126093b-ac85-4ce3-9392-efd7730e488a.png",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/1/2126093b-ac85-4ce3-9392-efd7730e488a.png",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/1/2126093b-ac85-4ce3-9392-efd7730e488a.png",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "PreOrder",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "9 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 2,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Z Fold5 12/512GB [BMW Exclusive Package] - Icy Blue",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-z-fold5-12-512gb-bmw-exclusive-package-icy-blue?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11071386257",
+      "stock": 234,
+      "price": {
+        "text_idr": "Rp27.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/1/73e53e6b-f0bb-4a48-aa36-e0f17d7ddd08.png",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/1/73e53e6b-f0bb-4a48-aa36-e0f17d7ddd08.png",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/1/73e53e6b-f0bb-4a48-aa36-e0f17d7ddd08.png",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "PreOrder",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "gimmick",
+          "title": "Sisa 2",
+          "type": "textDarkRed",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "20 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 3,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Watch6 Classic 43mm",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-watch6-classic-43mm-silver?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "10729428036",
+      "stock": 333,
+      "price": {
+        "text_idr": "Rp5.499.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/17/eaf4e001-60da-49f8-959c-e1e1762d6cfa.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/17/eaf4e001-60da-49f8-959c-e1e1762d6cfa.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/17/eaf4e001-60da-49f8-959c-e1e1762d6cfa.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "30+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "GoPay Later 0%",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 21,
+        "rating": 96,
+        "averageRating": "4.8",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Watch6 Classic 47mm",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-watch6-classic-47mm-silver-gpl-93def?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582124368",
+      "stock": 654,
+      "price": {
+        "text_idr": "Rp5.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/4f9b3ba1-ca76-4b87-b072-d37290af166e.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/26/4f9b3ba1-ca76-4b87-b072-d37290af166e.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/4f9b3ba1-ca76-4b87-b072-d37290af166e.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "60+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "GoPay Later 0%",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 35,
+        "rating": 97,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Watch6 Fresh 40mm",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-watch6-fresh-40mm-graphite-gpl-1e2d2?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582102632",
+      "stock": 765,
+      "price": {
+        "text_idr": "Rp3.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/17/6db5eaed-c8cd-4201-871b-7043ee04a48d.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/17/6db5eaed-c8cd-4201-871b-7043ee04a48d.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/17/6db5eaed-c8cd-4201-871b-7043ee04a48d.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "60+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "GoPay Later 0%",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 29,
+        "rating": 99,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Watch6 Fresh 44mm",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-watch6-fresh-44mm-silver-gpl-e429c?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582090230",
+      "stock": 344,
+      "price": {
+        "text_idr": "Rp4.499.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/17/8051a1e9-f792-4a4f-9071-1b35e9072817.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/17/8051a1e9-f792-4a4f-9071-1b35e9072817.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/17/8051a1e9-f792-4a4f-9071-1b35e9072817.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "30+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "GoPay Later 0%",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 19,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Tab S9 Ultra 12/512GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-tab-s9-ultra-12-512gb?extParam=whid%3D11442364%26src%3Dshop",
+      "product_id": "10728959740",
+      "stock": 123,
+      "price": {
+        "text_idr": "Rp21.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/18/790f1fc5-d125-4fe9-8dea-1ddc58085442.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/18/790f1fc5-d125-4fe9-8dea-1ddc58085442.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/18/790f1fc5-d125-4fe9-8dea-1ddc58085442.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "30+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 16,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Tab S9 Ultra 5G 12/256GB - Gray",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-tab-s9-ultra-5g-12-256gb-gray?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "10728943596",
+      "stock": 1234,
+      "price": {
+        "text_idr": "Rp19.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/16/68f0b4d9-89a2-4409-925f-b0118f9d81b8.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/16/68f0b4d9-89a2-4409-925f-b0118f9d81b8.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/16/68f0b4d9-89a2-4409-925f-b0118f9d81b8.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 1,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Tab S9 12/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-tab-s9-12-256gb-beige?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11242696565",
+      "stock": 12,
+      "price": {
+        "text_idr": "Rp15.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/0e82bf39-e9ef-4eab-bf8a-8bc1ae1fe355.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/26/0e82bf39-e9ef-4eab-bf8a-8bc1ae1fe355.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/0e82bf39-e9ef-4eab-bf8a-8bc1ae1fe355.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "90+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 52,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Tab S9 8/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-tab-s9-8-128gb-gray?extParam=whid%3D11442364%26src%3Dshop",
+      "product_id": "10786463070",
+      "stock": 32,
+      "price": {
+        "text_idr": "Rp13.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/16/b8dd48b0-5fb0-4065-9b84-bb2defacd361.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/16/b8dd48b0-5fb0-4065-9b84-bb2defacd361.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/16/b8dd48b0-5fb0-4065-9b84-bb2defacd361.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "2 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 1,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Z Fold5 12/1TB Smartphone",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-z-fold5-12-1tb-smartphone-icy-blue?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "10848354448",
+      "stock": 634,
+      "price": {
+        "text_idr": "Rp29.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/e30206e2-6a26-427a-b84b-1cccb7d75edc.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/26/e30206e2-6a26-427a-b84b-1cccb7d75edc.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/e30206e2-6a26-427a-b84b-1cccb7d75edc.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "60+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 29,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Z Fold5 12/512GB Smartphone",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-z-fold5-12-512gb-smartphone-phantom-black?extParam=whid%3D11442364%26src%3Dshop",
+      "product_id": "10849842473",
+      "stock": 877,
+      "price": {
+        "text_idr": "Rp26.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/2a7792b2-bfeb-4cdf-875b-5098d4ed5d6d.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/26/2a7792b2-bfeb-4cdf-875b-5098d4ed5d6d.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/2a7792b2-bfeb-4cdf-875b-5098d4ed5d6d.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "80+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 44,
+        "rating": 99,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Z Fold5 12/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-z-fold5-12-256gb-icy-blue-275f7?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11363719165",
+      "stock": 234,
+      "price": {
+        "text_idr": "Rp24.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/16/a9238abc-af11-469f-9e5d-a7917462ae83.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/16/a9238abc-af11-469f-9e5d-a7917462ae83.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/16/a9238abc-af11-469f-9e5d-a7917462ae83.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 0,
+        "rating": 0,
+        "averageRating": "",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Z Flip5 8/512GB Smartphone",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-z-flip5-8-512gb-smartphone-graphite?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "10729081212",
+      "stock": 213,
+      "price": {
+        "text_idr": "Rp17.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/f42f1f20-9dbd-4f79-a19a-95265dcd7aff.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/26/f42f1f20-9dbd-4f79-a19a-95265dcd7aff.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/f42f1f20-9dbd-4f79-a19a-95265dcd7aff.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "250+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 118,
+        "rating": 97,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Z Flip5 8/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-z-flip5-8-256gb-mint?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "10729075184",
+      "stock": 654,
+      "price": {
+        "text_idr": "Rp15.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/6385483a-8e51-4a0d-9370-e54c8bef94be.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/26/6385483a-8e51-4a0d-9370-e54c8bef94be.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/6385483a-8e51-4a0d-9370-e54c8bef94be.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "gimmick",
+          "title": "Sisa 2",
+          "type": "textDarkRed",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "14 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 4,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A04e 3GB/64GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a04e-3gb-64gb-blue-faf82?extParam=src%3Dshop%26whid%3D13355454",
+      "product_id": "10543160130",
+      "stock": 765,
+      "price": {
+        "text_idr": "Rp1.299.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/5/de53b9ed-7d1a-4b13-aee8-82b90ab3704b.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/5/de53b9ed-7d1a-4b13-aee8-82b90ab3704b.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/5/de53b9ed-7d1a-4b13-aee8-82b90ab3704b.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "13",
+        "original_price_fmt": "Rp1.499.000",
+        "start_date": "2023-08-16T10:54:33Z",
+        "end_date": "2023-12-31T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "250+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "fulfillment",
+          "title": "Dilayani Tokopedia",
+          "type": "textDarkGrey",
+          "url": "https://images.tokopedia.net/img/restriction-engine/bebas-ongkir/DilayaniTokopedia_Icon.png",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 96,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Buds2 [Earbuds]",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-buds2-earbuds-white-gpl-e1a26?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11758431348",
+      "stock": 433,
+      "price": {
+        "text_idr": "Rp1.439.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/30/a21c8ca6-0385-43fd-8675-0c21b1fc3402.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/6/30/a21c8ca6-0385-43fd-8675-0c21b1fc3402.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/30/a21c8ca6-0385-43fd-8675-0c21b1fc3402.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "15",
+        "original_price_fmt": "Rp1.699.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "100+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 52,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Watch4 (40mm)",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-watch4-40mm-black-72990?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "9941204183",
+      "stock": 322,
+      "price": {
+        "text_idr": "Rp2.251.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/29/9d09d651-ffe9-4381-989d-a3494022291b.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/29/9d09d651-ffe9-4381-989d-a3494022291b.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/29/9d09d651-ffe9-4381-989d-a3494022291b.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "25",
+        "original_price_fmt": "Rp2.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "26 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 9,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Watch 5 Pro (45MM)",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-watch-5-pro-45mm-black-gpl-04834?extParam=whid%3D11442364%26src%3Dshop",
+      "product_id": "11758680245",
+      "stock": 5678,
+      "price": {
+        "text_idr": "Rp5.567.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/26/5c8f138d-2515-45cc-a589-27f629bef332.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/5/26/5c8f138d-2515-45cc-a589-27f629bef332.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/26/5c8f138d-2515-45cc-a589-27f629bef332.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "14",
+        "original_price_fmt": "Rp6.499.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "2 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 1,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Tab A7 Lite Wifi 3/32GB - Gray",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-tab-a7-lite-wifi-3-32gb-gray-gray-gpl-c7534?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11758394580",
+      "stock": 124,
+      "price": {
+        "text_idr": "Rp1.919.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/26/ecf8cb38-8113-4134-8762-e1f640c14853.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/5/26/ecf8cb38-8113-4134-8762-e1f640c14853.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/26/ecf8cb38-8113-4134-8762-e1f640c14853.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "9",
+        "original_price_fmt": "Rp2.099.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "8 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 2,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S23+ 5G 8/512GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s23-5g-8-512gb-lavender?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "9534028225",
+      "stock": 422,
+      "price": {
+        "text_idr": "Rp16.899.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/10ca509f-c2d5-4ab8-9683-34c456cce25e.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/5/10ca509f-c2d5-4ab8-9683-34c456cce25e.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/10ca509f-c2d5-4ab8-9683-34c456cce25e.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "6",
+        "original_price_fmt": "Rp17.999.000",
+        "start_date": "2023-10-06T09:43:37Z",
+        "end_date": "2023-10-22T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "10 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 5,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A24 LTE 8/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a24-lte-8-128gb-black-gpl-dfee7?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11580069320",
+      "stock": 544,
+      "price": {
+        "text_idr": "Rp3.377.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/1/52067530-79df-4e10-a8a6-6b139ceedcd7.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/1/52067530-79df-4e10-a8a6-6b139ceedcd7.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/1/52067530-79df-4e10-a8a6-6b139ceedcd7.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "9",
+        "original_price_fmt": "Rp3.699.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 491,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy M14 5G 4GB/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-m14-5g-4gb-128gb-silver-gpl-96955?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582507778",
+      "stock": 877,
+      "price": {
+        "text_idr": "Rp2.398.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/839d50c5-1f76-4799-bb14-64bd5c1a81d8.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/5/839d50c5-1f76-4799-bb14-64bd5c1a81d8.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/839d50c5-1f76-4799-bb14-64bd5c1a81d8.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "20",
+        "original_price_fmt": "Rp2.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "80+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 28,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy M14 5G 6GB/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-m14-5g-6gb-128gb-silver-gpl-94445?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582487616",
+      "stock": 142,
+      "price": {
+        "text_idr": "Rp2.668.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/bac8e60d-590a-449a-b2c6-57cbbd3c1814.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/5/bac8e60d-590a-449a-b2c6-57cbbd3c1814.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/bac8e60d-590a-449a-b2c6-57cbbd3c1814.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "19",
+        "original_price_fmt": "Rp3.299.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "100+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 56,
+        "rating": 99,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S21 FE 5G 8GB/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s21-fe-5g-8gb-128gb-olive-a1c93?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "9211117697",
+      "stock": 666,
+      "price": {
+        "text_idr": "Rp7.445.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/4/17/afdf5e3b-97cb-4626-8dc6-68a764589cff.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/4/17/afdf5e3b-97cb-4626-8dc6-68a764589cff.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/4/17/afdf5e3b-97cb-4626-8dc6-68a764589cff.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "17",
+        "original_price_fmt": "Rp8.999.000",
+        "start_date": "2023-08-16T10:48:40Z",
+        "end_date": "2023-12-31T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "250+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 177,
+        "rating": 99,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S21 FE 5G 8GB/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s21-fe-5g-8gb-256gb-navy-gpl-4e031?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11758996820",
+      "stock": 54,
+      "price": {
+        "text_idr": "Rp7.679.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/2/bce348e2-6ad9-4310-bdbd-6e90151a0fe9.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/5/2/bce348e2-6ad9-4310-bdbd-6e90151a0fe9.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/2/bce348e2-6ad9-4310-bdbd-6e90151a0fe9.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "23",
+        "original_price_fmt": "Rp9.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "6 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 0,
+        "rating": 0,
+        "averageRating": "",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy M14 5G 4GB/64GB ",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-m14-5g-4gb-64gb-silver-gpl-3337a?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582562285",
+      "stock": 43,
+      "price": {
+        "text_idr": "Rp2.299.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/aae6d413-9dca-4127-9748-20cd7f00edf4.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/5/aae6d413-9dca-4127-9748-20cd7f00edf4.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/aae6d413-9dca-4127-9748-20cd7f00edf4.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "18",
+        "original_price_fmt": "Rp2.799.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "26 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 14,
+        "rating": 92,
+        "averageRating": "4.6",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy M14 5G 6/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-m14-5g-6-128gb-blue-8ff89?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "9140253507",
+      "stock": 76,
+      "price": {
+        "text_idr": "Rp3.155.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/1/468de37e-eb27-415e-b5fa-533fbccfe065.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/1/468de37e-eb27-415e-b5fa-533fbccfe065.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/1/468de37e-eb27-415e-b5fa-533fbccfe065.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "4",
+        "original_price_fmt": "Rp3.299.000",
+        "start_date": "2023-04-21T00:00:00Z",
+        "end_date": "2023-12-31T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 666,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy M23 5G 6GB/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-m23-5g-6gb-128gb-copper-gpl-5f5d8?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582040894",
+      "stock": 987,
+      "price": {
+        "text_idr": "Rp3.059.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/99a498df-cef1-43ae-8eeb-ad139cf36cc9.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/5/99a498df-cef1-43ae-8eeb-ad139cf36cc9.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/99a498df-cef1-43ae-8eeb-ad139cf36cc9.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "17",
+        "original_price_fmt": "Rp3.699.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "100+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 63,
+        "rating": 96,
+        "averageRating": "4.8",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S22+ 5G 8/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s22-5g-8-128gb-phantom-black-72dc6?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "8764977359",
+      "stock": 123,
+      "price": {
+        "text_idr": "Rp9.859.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/2/db318a7a-73d5-4bdb-9cbe-f909519aeb3a.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/6/2/db318a7a-73d5-4bdb-9cbe-f909519aeb3a.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/2/db318a7a-73d5-4bdb-9cbe-f909519aeb3a.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "28",
+        "original_price_fmt": "Rp13.749.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "250+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Harga Spesial",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 152,
+        "rating": 96,
+        "averageRating": "4.8",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A14 LTE 6/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a14-lte-6-128gb-black-gpl-29345?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582650772",
+      "stock": 980,
+      "price": {
+        "text_idr": "Rp2.399.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/1/f6a034e1-f69e-4a22-b2c7-016f44149973.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/1/f6a034e1-f69e-4a22-b2c7-016f44149973.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/1/f6a034e1-f69e-4a22-b2c7-016f44149973.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "11",
+        "original_price_fmt": "Rp2.699.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 663,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A54 5G 8/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a54-5g-8-256gb-white-gpl-f77ce?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11581570211",
+      "stock": 322,
+      "price": {
+        "text_idr": "Rp5.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/18/f6ba4a8b-c8b9-4ed6-afc1-7f0b5b7a8245.png",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/18/f6ba4a8b-c8b9-4ed6-afc1-7f0b5b7a8245.png",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/18/f6ba4a8b-c8b9-4ed6-afc1-7f0b5b7a8245.png",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "6",
+        "original_price_fmt": "Rp6.399.000",
+        "start_date": "2023-09-25T00:54:15Z",
+        "end_date": "2023-10-22T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "GoPay Later 0%",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 755,
+        "rating": 97,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A54 5G 8/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a54-5g-8-128gb-violet-gpl-ffc4d?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11581580471",
+      "stock": 765,
+      "price": {
+        "text_idr": "Rp5.599.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/12/06a9a5b5-06e7-4d16-9be3-cadb0af87b00.png",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/12/06a9a5b5-06e7-4d16-9be3-cadb0af87b00.png",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/12/06a9a5b5-06e7-4d16-9be3-cadb0af87b00.png",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "7",
+        "original_price_fmt": "Rp5.999.000",
+        "start_date": "2023-09-25T00:53:35Z",
+        "end_date": "2023-10-22T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "500+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "GoPay Later 0%",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 283,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A34 5G 8/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a34-5g-8-256gb-lime-gpl-019cd?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11600159139",
+      "stock": 877,
+      "price": {
+        "text_idr": "Rp5.099.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/18/b9823a19-810c-4174-8dcb-292ca6b01af9.png",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/18/b9823a19-810c-4174-8dcb-292ca6b01af9.png",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/18/b9823a19-810c-4174-8dcb-292ca6b01af9.png",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "6",
+        "original_price_fmt": "Rp5.399.000",
+        "start_date": "2023-09-25T00:52:03Z",
+        "end_date": "2023-10-22T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "250+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "GoPay Later 0%",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 141,
+        "rating": 97,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A34 5G 8/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a34-5g-8-128gb-silver-gpl-6b566?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11579990583",
+      "stock": 123,
+      "price": {
+        "text_idr": "Rp4.699.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/20/d3403862-7931-4927-b8b0-e9b6d8abda66.png",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/6/20/d3403862-7931-4927-b8b0-e9b6d8abda66.png",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/20/d3403862-7931-4927-b8b0-e9b6d8abda66.png",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "6",
+        "original_price_fmt": "Rp4.999.000",
+        "start_date": "2023-09-25T00:52:54Z",
+        "end_date": "2023-10-22T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "250+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "GoPay Later 0%",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 233,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S23 5G 8GB/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s23-5g-8gb-256gb-green-4ae83?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "8157423924",
+      "stock": 433,
+      "price": {
+        "text_idr": "Rp12.671.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/7/b4cc1bad-6cf7-409a-b063-834cfbd777f7.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/7/b4cc1bad-6cf7-409a-b063-834cfbd777f7.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/7/b4cc1bad-6cf7-409a-b063-834cfbd777f7.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "9",
+        "original_price_fmt": "Rp13.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "70+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 43,
+        "rating": 99,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Tab A7 Lite Wifi 3GB/32GB - Gray",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-tab-a7-lite-wifi-3gb-32gb-gray?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "7861365311",
+      "stock": 657,
+      "price": {
+        "text_idr": "Rp1.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/7/4f11feed-0e2b-46dc-96e9-7981228d4eeb.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/7/4f11feed-0e2b-46dc-96e9-7981228d4eeb.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/7/4f11feed-0e2b-46dc-96e9-7981228d4eeb.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "5",
+        "original_price_fmt": "Rp2.099.000",
+        "start_date": "2023-02-16T22:30:15Z",
+        "end_date": "2023-12-31T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "750+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 270,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A14 5G 6/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a14-5g-6-128gb-black-gpl-d5d23?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11579840281",
+      "stock": 231,
+      "price": {
+        "text_idr": "Rp2.687.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/20/b195e718-060f-485c-8a8a-b18eb54b9be8.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/6/20/b195e718-060f-485c-8a8a-b18eb54b9be8.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/20/b195e718-060f-485c-8a8a-b18eb54b9be8.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "10",
+        "original_price_fmt": "Rp2.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 836,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S23 Ultra 5G 12/512GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s23-ultra-5g-12-512gb-lavender?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "7686028897",
+      "stock": 546,
+      "price": {
+        "text_idr": "Rp19.583.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/d24ddce1-183b-447f-973d-66c5c864d0f9.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/5/d24ddce1-183b-447f-973d-66c5c864d0f9.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/d24ddce1-183b-447f-973d-66c5c864d0f9.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "11",
+        "original_price_fmt": "Rp21.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "250+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 157,
+        "rating": 96,
+        "averageRating": "4.8",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S23 Ultra 5G 12/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s23-ultra-5g-12-256gb-green-06f7?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "7686009832",
+      "stock": 877,
+      "price": {
+        "text_idr": "Rp17.663.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/14/f75ddbb0-54af-4735-827e-11e8d7207021.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/14/f75ddbb0-54af-4735-827e-11e8d7207021.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/14/f75ddbb0-54af-4735-827e-11e8d7207021.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "12",
+        "original_price_fmt": "Rp19.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "500+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/1/4/4adebcf3-40f6-4e0e-b1bc-472d9b20abfb.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 317,
+        "rating": 97,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S23+ 5G 8/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s23-5g-8-256gb-black?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "7685988810",
+      "stock": 896,
+      "price": {
+        "text_idr": "Rp14.303.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/7/014ec1b4-93b5-4a18-8869-c433dc656013.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/7/014ec1b4-93b5-4a18-8869-c433dc656013.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/7/014ec1b4-93b5-4a18-8869-c433dc656013.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "11",
+        "original_price_fmt": "Rp15.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "100+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 100,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S23 5G 8/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s23-5g-8-128gb-green?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "7685969964",
+      "stock": 244,
+      "price": {
+        "text_idr": "Rp11.711.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/50d5dcce-997d-4004-be09-ce5fdb188232.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/5/50d5dcce-997d-4004-be09-ce5fdb188232.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/50d5dcce-997d-4004-be09-ce5fdb188232.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "10",
+        "original_price_fmt": "Rp12.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "250+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 172,
+        "rating": 97,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A04e 3/32GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a04e-3-32gb-black-gpl-81904?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11582115874",
+      "stock": 765,
+      "price": {
+        "text_idr": "Rp1.199.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/bc0a4503-dd2d-4423-8996-150cd152fe36.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/5/bc0a4503-dd2d-4423-8996-150cd152fe36.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/bc0a4503-dd2d-4423-8996-150cd152fe36.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "14",
+        "original_price_fmt": "Rp1.399.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "2rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 1328,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A13 LTE 4/64GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a13-lte-4-64gb-black?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "6724678204",
+      "stock": 980,
+      "price": {
+        "text_idr": "Rp2.049.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/6/26418fab-4c0f-453d-9102-7b12a22a5a3f.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/5/6/26418fab-4c0f-453d-9102-7b12a22a5a3f.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/6/26418fab-4c0f-453d-9102-7b12a22a5a3f.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "11",
+        "original_price_fmt": "Rp2.299.000",
+        "start_date": "2022-12-01T15:25:27Z",
+        "end_date": "2023-12-31T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 838,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Watch5 Pro (45MM)",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-watch5-pro-45mm-gray-titanium?extParam=src%3Dshop%26whid%3D13355454",
+      "product_id": "5047100448",
+      "stock": 433,
+      "price": {
+        "text_idr": "Rp5.799.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/15/e5a3bcad-98a7-4ee2-8dd9-83179a71425b.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/5/15/e5a3bcad-98a7-4ee2-8dd9-83179a71425b.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/15/e5a3bcad-98a7-4ee2-8dd9-83179a71425b.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "11",
+        "original_price_fmt": "Rp6.499.000",
+        "start_date": "2023-02-01T14:57:11Z",
+        "end_date": "2023-10-22T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "250+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "fulfillment",
+          "title": "Dilayani Tokopedia",
+          "type": "textDarkGrey",
+          "url": "https://images.tokopedia.net/img/restriction-engine/bebas-ongkir/DilayaniTokopedia_Icon.png",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 172,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Buds2 Pro",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-buds2-pro-bora-purple-gpl-bb8a8?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11758446875",
+      "stock": 124,
+      "price": {
+        "text_idr": "Rp2.255.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/15/91390739-877f-42da-8219-09d78619f162.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/5/15/91390739-877f-42da-8219-09d78619f162.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/15/91390739-877f-42da-8219-09d78619f162.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "19",
+        "original_price_fmt": "Rp2.799.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 669,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Z Fold4 5G 12/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-z-fold4-5g-12-256gb-beige?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "5046548850",
+      "stock": 877,
+      "price": {
+        "text_idr": "Rp20.159.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/14/b15ee647-4fa2-4aa7-a215-c7d8efe625da.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/14/b15ee647-4fa2-4aa7-a215-c7d8efe625da.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/14/b15ee647-4fa2-4aa7-a215-c7d8efe625da.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "19",
+        "original_price_fmt": "Rp24.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "100+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/27/404123ac-176c-4ffe-85c4-f0d3da7d75ab.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 64,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy M23 5G 6/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-m23-5g-6-128gb-green?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "4301093480",
+      "stock": 435,
+      "price": {
+        "text_idr": "Rp3.225.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/1/ee775976-8d85-43b3-b1b8-237c6f61e590.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/1/ee775976-8d85-43b3-b1b8-237c6f61e590.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/1/ee775976-8d85-43b3-b1b8-237c6f61e590.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "13",
+        "original_price_fmt": "Rp3.699.000",
+        "start_date": "2023-01-21T10:09:39Z",
+        "end_date": "2023-12-31T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "4rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 2377,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S21 FE 5G 8/128GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s21-fe-5g-8-128gb-olive-gpl-028e2?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "11758470012",
+      "stock": 234,
+      "price": {
+        "text_idr": "Rp7.184.500",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/1/72397fd3-d3ae-4471-82c9-154d289eadf6.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/5/1/72397fd3-d3ae-4471-82c9-154d289eadf6.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/1/72397fd3-d3ae-4471-82c9-154d289eadf6.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "20",
+        "original_price_fmt": "Rp8.999.000",
+        "start_date": "2023-10-09T00:00:00Z",
+        "end_date": "2023-10-09T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "500+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "campaign",
+          "title": "Super Gadget Day",
+          "type": "",
+          "url": "https://images.tokopedia.net/img/phOWBv/2023/9/19/197e5fb0-1f09-4b5b-adaa-72355445f0c0.jpg",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 439,
+        "rating": 94,
+        "averageRating": "4.7",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S21 FE 5G 8/256GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s21-fe-5g-8-256gb-graphite?extParam=src%3Dshop%26whid%3D11442364",
+      "product_id": "2630653884",
+      "stock": 24,
+      "price": {
+        "text_idr": "Rp7.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/8/46633fe9-6fc3-43d4-918e-73a6e4daa3a1.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/6/8/46633fe9-6fc3-43d4-918e-73a6e4daa3a1.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/8/46633fe9-6fc3-43d4-918e-73a6e4daa3a1.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "20",
+        "original_price_fmt": "Rp9.999.000",
+        "start_date": "2023-08-16T10:50:17Z",
+        "end_date": "2023-12-31T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 583,
+        "rating": 96,
+        "averageRating": "4.8",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Buds2",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-buds2-violet?extParam=src%3Dshop%26whid%3D13355454",
+      "product_id": "2457548447",
+      "stock": 54,
+      "price": {
+        "text_idr": "Rp1.499.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/15/3c5c8387-9fec-41ee-90bf-cb1d4c8c307f.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/5/15/3c5c8387-9fec-41ee-90bf-cb1d4c8c307f.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/5/15/3c5c8387-9fec-41ee-90bf-cb1d4c8c307f.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": false,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "12",
+        "original_price_fmt": "Rp1.699.000",
+        "start_date": "2023-10-06T09:13:31Z",
+        "end_date": "2023-10-22T23:59:00Z",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "integrity",
+          "title": "1rb+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "fulfillment",
+          "title": "Dilayani Tokopedia",
+          "type": "textDarkGrey",
+          "url": "https://images.tokopedia.net/img/restriction-engine/bebas-ongkir/DilayaniTokopedia_Icon.png",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 1068,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy M14 5G 4GB/64GB [10.10] - Dark Blue",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-m14-5g-4gb-64gb-10-10-dark-blue?extParam=src%3Dshop",
+      "product_id": "11734107809",
+      "stock": 55,
+      "price": {
+        "text_idr": "Rp1.799.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/10/2/28c46d7d-cae8-4922-8c2d-b9bcd77f84a8.png",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/10/2/28c46d7d-cae8-4922-8c2d-b9bcd77f84a8.png",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/10/2/28c46d7d-cae8-4922-8c2d-b9bcd77f84a8.png",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "1 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 0,
+        "rating": 0,
+        "averageRating": "",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A05 4/64GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a05-4-64gb?extParam=src%3Dshop",
+      "product_id": "11599769662",
+      "stock": 65,
+      "price": {
+        "text_idr": "Rp1.499.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/10/6/b239ada6-4c60-44a9-bca9-26bc7d3fa540.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/10/6/b239ada6-4c60-44a9-bca9-26bc7d3fa540.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/10/6/b239ada6-4c60-44a9-bca9-26bc7d3fa540.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "25 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 0,
+        "rating": 0,
+        "averageRating": "",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Z Flip5 8GB/512GB - Graphite",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-z-flip5-8gb-512gb-graphite?extParam=src%3Dshop",
+      "product_id": "11538557253",
+      "stock": 67,
+      "price": {
+        "text_idr": "Rp15.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/8/e675422c-68bb-4c5a-84ab-72382611efc0.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/8/e675422c-68bb-4c5a-84ab-72382611efc0.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/8/e675422c-68bb-4c5a-84ab-72382611efc0.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "1 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 0,
+        "rating": 0,
+        "averageRating": "",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A04e 3/32GB [Exclusive]",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a04e-3-32gb-exclusive?extParam=src%3Dshop",
+      "product_id": "11401700777",
+      "stock": 87,
+      "price": {
+        "text_idr": "Rp1.399.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/28/61f92980-de17-489c-96ad-7dc52152d06c.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/28/61f92980-de17-489c-96ad-7dc52152d06c.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/28/61f92980-de17-489c-96ad-7dc52152d06c.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "5 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 1,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A24 LTE 8/128GB [Dilayani Tokopedia]",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a24-lte-8-128gb-dilayani-tokopedia?extParam=src%3Dshop",
+      "product_id": "11326334995",
+      "stock": 2333,
+      "price": {
+        "text_idr": "Rp3.499.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/24/05ef090b-28e0-4b0c-a181-a631a9fb6f3b.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/24/05ef090b-28e0-4b0c-a181-a631a9fb6f3b.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/24/05ef090b-28e0-4b0c-a181-a631a9fb6f3b.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "10 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 4,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy A34 5G 8/128GB [Dilayani Tokopedia] ",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-a34-5g-8-128gb-dilayani-tokopedia?extParam=src%3Dshop",
+      "product_id": "11326265669",
+      "stock": 123,
+      "price": {
+        "text_idr": "Rp4.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/24/e5889d1a-aa41-49e0-9e08-b32f51cd5467.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/24/e5889d1a-aa41-49e0-9e08-b32f51cd5467.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/24/e5889d1a-aa41-49e0-9e08-b32f51cd5467.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "1 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 1,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy M23 5G 6/128GB [Dilayani Tokopedia]",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-m23-5g-6-128gb-dilayani-tokopedia?extParam=src%3Dshop",
+      "product_id": "11022028600",
+      "stock": 423,
+      "price": {
+        "text_idr": "Rp3.699.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/8e67d7eb-c119-4ed1-bb2c-c2b921dd0cfc.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/5/8e67d7eb-c119-4ed1-bb2c-c2b921dd0cfc.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/5/8e67d7eb-c119-4ed1-bb2c-c2b921dd0cfc.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "1 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 1,
+        "rating": 60,
+        "averageRating": "3.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S22+ 5G 8GB/128GB [Dilayani Tokopedia]",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s22-5g-8gb-128gb-dilayani-tokopedia?extParam=src%3Dshop",
+      "product_id": "11021910111",
+      "stock": 766,
+      "price": {
+        "text_idr": "Rp12.499.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/4/65a72de6-68dc-4228-af06-6c8a08284ab7.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/4/65a72de6-68dc-4228-af06-6c8a08284ab7.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/4/65a72de6-68dc-4228-af06-6c8a08284ab7.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "1 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 1,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Flip5 Flipsuit Case",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-flip5-flipsuit-case?extParam=src%3Dshop",
+      "product_id": "10870073803",
+      "stock": 896,
+      "price": {
+        "text_idr": "Rp599.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/8a5f9777-fcab-4ae1-8b72-72e15a7b8c30.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/8a5f9777-fcab-4ae1-8b72-72e15a7b8c30.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/8a5f9777-fcab-4ae1-8b72-72e15a7b8c30.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "21 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 14,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Fold5 Starter Pack",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-fold5-starter-pack?extParam=src%3Dshop",
+      "product_id": "10869986590",
+      "stock": 647,
+      "price": {
+        "text_idr": "Rp1.299.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/27/772d615c-a2b0-4550-9d7c-d5d11e99dd5f.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/27/772d615c-a2b0-4550-9d7c-d5d11e99dd5f.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/27/772d615c-a2b0-4550-9d7c-d5d11e99dd5f.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "30+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 13,
+        "rating": 98,
+        "averageRating": "4.9",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Fold5 Slim S Pen Case",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-fold5-slim-s-pen-case?extParam=src%3Dshop",
+      "product_id": "10869465895",
+      "stock": 84,
+      "price": {
+        "text_idr": "Rp1.199.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/8992a646-db2b-41fc-bd91-0a7c9c5aac7f.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/8992a646-db2b-41fc-bd91-0a7c9c5aac7f.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/8992a646-db2b-41fc-bd91-0a7c9c5aac7f.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "70+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 40,
+        "rating": 93,
+        "averageRating": "4.7",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Flip5 Clear Gadget Case",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-flip5-clear-gadget-case?extParam=src%3Dshop",
+      "product_id": "10869341610",
+      "stock": 89,
+      "price": {
+        "text_idr": "Rp499.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/3ded45c0-e725-4798-939a-6a3d0bf0894c.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/3ded45c0-e725-4798-939a-6a3d0bf0894c.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/3ded45c0-e725-4798-939a-6a3d0bf0894c.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "14 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 7,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Fold5 Standing Case With Strap",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-fold5-standing-case-with-strap?extParam=src%3Dshop",
+      "product_id": "10869065155",
+      "stock": 35,
+      "price": {
+        "text_idr": "Rp799.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/4b766fe4-141f-49f0-99d3-73b1b5802a47.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/4b766fe4-141f-49f0-99d3-73b1b5802a47.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/4b766fe4-141f-49f0-99d3-73b1b5802a47.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "19 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 6,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Flip5 Silicone Case With Ring",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-flip5-silicone-case-with-ring?extParam=src%3Dshop",
+      "product_id": "10868946030",
+      "stock": 98,
+      "price": {
+        "text_idr": "Rp499.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/c00b95ba-b478-44f9-864a-74bea56c7790.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/c00b95ba-b478-44f9-864a-74bea56c7790.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/c00b95ba-b478-44f9-864a-74bea56c7790.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "30+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 20,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Flip5  Front Protection Film",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-flip5-front-protection-film?extParam=src%3Dshop",
+      "product_id": "10868747028",
+      "stock": 24,
+      "price": {
+        "text_idr": "Rp199.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/3578f722-6fad-49d4-b2c9-14a465bcf6d3.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/3578f722-6fad-49d4-b2c9-14a465bcf6d3.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/3578f722-6fad-49d4-b2c9-14a465bcf6d3.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "15 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 10,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Fold5 ECO-Leather",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-fold5-eco-leather?extParam=src%3Dshop",
+      "product_id": "10868659788",
+      "stock": 657,
+      "price": {
+        "text_idr": "Rp999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/af4d91df-f249-4c2c-a338-59ffec0705c1.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/af4d91df-f249-4c2c-a338-59ffec0705c1.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/af4d91df-f249-4c2c-a338-59ffec0705c1.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "9 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 4,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Fold5 Clear Gadget Case",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-fold5-clear-gadget-case?extParam=src%3Dshop",
+      "product_id": "10868341262",
+      "stock": 124,
+      "price": {
+        "text_idr": "Rp499.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/c57a1cc4-0f7d-48cd-9dbc-9094a8aa47e9.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/c57a1cc4-0f7d-48cd-9dbc-9094a8aa47e9.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/c57a1cc4-0f7d-48cd-9dbc-9094a8aa47e9.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "10 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 5,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Flip5  Flap ECO-Leather Case",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-flip5-flap-eco-leather-case?extParam=src%3Dshop",
+      "product_id": "10868220156",
+      "stock": 876,
+      "price": {
+        "text_idr": "Rp999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/dfb53987-9088-42ef-851a-c82e86d840bc.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/dfb53987-9088-42ef-851a-c82e86d840bc.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/dfb53987-9088-42ef-851a-c82e86d840bc.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "27 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 15,
+        "rating": 94,
+        "averageRating": "4.7",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Z Fold5 Front Protection Film",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-z-fold5-front-protection-film?extParam=src%3Dshop",
+      "product_id": "10867699515",
+      "stock": 235,
+      "price": {
+        "text_idr": "Rp199.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/1b90f35d-335e-4793-914f-b0e33e03ae24.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/1b90f35d-335e-4793-914f-b0e33e03ae24.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/1b90f35d-335e-4793-914f-b0e33e03ae24.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": true,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [
+        {
+          "color_hex": "#ffffff",
+          "content": "PO",
+          "__typename": "ReturnInfo"
+        }
+      ],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "15 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 7,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy S22+ 5G 8/128GB - Pink Gold",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-s22-5g-8-128gb-pink-gold?extParam=src%3Dshop",
+      "product_id": "10840069934",
+      "stock": 987,
+      "price": {
+        "text_idr": "Rp13.749.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/24/d3b00749-29bd-4c8e-9dea-d33531ead7b9.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/24/d3b00749-29bd-4c8e-9dea-d33531ead7b9.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/24/d3b00749-29bd-4c8e-9dea-d33531ead7b9.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "1 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 1,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Tab S9 Plus 12/512GB",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-tab-s9-plus-12-512gb?extParam=src%3Dshop",
+      "product_id": "10728902479",
+      "stock": 125,
+      "price": {
+        "text_idr": "Rp18.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/18/72929b03-b982-4195-9280-1845b945b347.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/18/72929b03-b982-4195-9280-1845b945b347.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/18/72929b03-b982-4195-9280-1845b945b347.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "40+ terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 26,
+        "rating": 96,
+        "averageRating": "4.8",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Tab S9+ 5G 12/256GB - Gray",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-tab-s9-5g-12-256gb-gray?extParam=src%3Dshop",
+      "product_id": "10728882498",
+      "stock": 845,
+      "price": {
+        "text_idr": "Rp16.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/16/bfae53ad-6476-47b1-813d-1621387346f3.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/16/bfae53ad-6476-47b1-813d-1621387346f3.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/16/bfae53ad-6476-47b1-813d-1621387346f3.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "2 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 0,
+        "rating": 0,
+        "averageRating": "",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    },
+    {
+      "name": "Samsung Galaxy Tab S9 WIFI 8/128GB - Gray",
+      "product_url": "https://www.tokopedia.com/samsung/samsung-galaxy-tab-s9-wifi-8-128gb-gray?extParam=src%3Dshop",
+      "product_id": "10728823149",
+      "stock": 43,
+      "price": {
+        "text_idr": "Rp11.999.000",
+        "__typename": "ProductListPrice"
+      },
+      "primary_image": {
+        "original": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/16/11899e39-6385-43cb-870b-f3ae7219732a.jpg",
+        "thumbnail": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/16/11899e39-6385-43cb-870b-f3ae7219732a.jpg",
+        "resize300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/16/11899e39-6385-43cb-870b-f3ae7219732a.jpg",
+        "__typename": "ProductListPrimaryImage"
+      },
+      "flags": {
+        "isSold": true,
+        "isPreorder": false,
+        "isWholesale": false,
+        "isWishlist": false,
+        "__typename": "ProductListFlagNew"
+      },
+      "campaign": {
+        "discounted_percentage": "0",
+        "original_price_fmt": "",
+        "start_date": "",
+        "end_date": "",
+        "__typename": "ProductDetailCampaignType"
+      },
+      "label": [],
+      "label_groups": [
+        {
+          "position": "status",
+          "title": "Stok Habis",
+          "type": "transparentBlack",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        },
+        {
+          "position": "integrity",
+          "title": "5 terjual",
+          "type": "textDarkGrey",
+          "url": "",
+          "__typename": "tomeLabelGroup"
+        }
+      ],
+      "badge": [
+        {
+          "title": "Official Store",
+          "image_url": "https://images.tokopedia.net/img/official_store_badge.png",
+          "__typename": "ShopBadge"
+        }
+      ],
+      "stats": {
+        "reviewCount": 3,
+        "rating": 100,
+        "averageRating": "5.0",
+        "__typename": "ProductListStats"
+      },
+      "category": {
+        "id": "0",
+        "__typename": "ProductListCategory"
+      },
+      "__typename": "ShopProductListDetail"
+    }
+  ]
+}

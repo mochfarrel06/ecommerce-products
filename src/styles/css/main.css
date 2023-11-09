@@ -1,5 +1,6 @@
 * {
-  font-family: "Lato", sans-serif;
+  font-family: "Inconsolata", monospace;
+  margin: 0;
 }
 
 :root {
@@ -10,4 +11,86 @@
   --color-black: #333333;
   --color-white: #ffffff;
   --color-orange: #ff7f0a;
+}
+
+.navbar {
+  position: fixed;
+  padding: 0.7rem 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  z-index: 99;
+}
+
+.navbar .navbar-brand {
+  color: var(--color-white);
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.navbar .nav-link a {
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color-white);
+  transition: all ease-in-out 0.3s;
+}
+
+.navbar .nav-link a:hover {
+  color: var(--color-grey);
+}
+
+header {
+  background: var(--color-white);
+  background: -webkit-linear-gradient(
+    to bottom,
+    var(--primary-color),
+    var(--color-grey)
+  );
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color),
+    var(--color-grey)
+  );
+}
+
+.products-app,
+.details-app {
+  padding: 10rem 0;
+  width: 100%;
+}
+
+.container .row {
+  gap: 1rem;
+  margin: 0;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+.container .col {
+  padding-right: 0;
+}
+
+.card {
+  width: 18rem;
+  overflow: hidden;
+  background: #ffffff;
+  height: 100%;
+}
+
+.card .card-body {
+  padding-bottom: 2rem;
+}
+
+.card .card-img-top {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.card .h5 {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.card .rating .card-text {
+  font-size: 0.8rem;
 }
