@@ -11,6 +11,7 @@ function ProductPage() {
   const [sortOrder, setSortOrder] = useState("asc");
   const [sortedProducts, setSortedProducts] = useState([]);
   const [filterOption, setFilterOption] = useState("all");
+  const [lengthProduct, setLengthProduct] = useState("10");
 
   const handleToggleView = () => {
     setToggleView(!toggleView);
@@ -25,6 +26,8 @@ function ProductPage() {
     } else if (selectedValue.startsWith("filter")) {
       // Pengguna memilih opsi filter
       setFilterOption(selectedValue.split("_")[1]);
+    } else if (selectedValue.startsWith("perPage")) {
+      setLengthProduct(parseInt(selectedValue.split("_")[1], 10));
     }
   };
 
@@ -57,8 +60,9 @@ function ProductPage() {
       filterOption
     );
 
-    setSortedProducts(filteredAndSortedProducts);
-  }, [sortOrder, filterOption]);
+    const slicedProducts = filteredAndSortedProducts.slice(0, lengthProduct);
+    setSortedProducts(slicedProducts);
+  }, [sortOrder, filterOption, lengthProduct]);
 
   return (
     <div className="products-app">
@@ -77,7 +81,7 @@ function ProductPage() {
               )}
             </Button>
           </Col>
-          <Col md={2} className="bg-info d-flex align-items-center gap-3">
+          <Col md={2} className="d-flex align-items-center gap-3">
             Sort by:
             <Form.Select
               aria-label="Sort and Filter"
@@ -90,8 +94,16 @@ function ProductPage() {
               <option value="filter_min">Stock (Min)</option>
             </Form.Select>
           </Col>
-          <Col md={2} className="bg-info">
-            Stock
+          <Col md={2} className="">
+            Show:
+            <Form.Select
+              aria-label="Products per Page"
+              onChange={handleSortAndFilter}
+            >
+              <option value="perPage_10">10</option>
+              <option value="perPage_15">15</option>
+              <option value="perPage_20">20</option>
+            </Form.Select>
           </Col>
         </Row>
         {/* <Row>
