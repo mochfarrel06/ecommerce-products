@@ -1,12 +1,6 @@
 import React, {useState} from "react";
 import {Container, Table, Button, Row, Col} from "react-bootstrap";
-import {
-  SortUp,
-  SortDown,
-  BarChartFill,
-  TabletFill,
-} from "react-bootstrap-icons";
-import {BsTable} from "react-icons/bs";
+import {SortUp, SortDown} from "react-bootstrap-icons";
 import {
   BarChart,
   Bar,
@@ -38,25 +32,22 @@ function TablesPage() {
     <Container className="products-app">
       <Row className="mb-5 border px-4 py-2">
         <Col>
-          <span className="me-2">Sort:</span>
+          {/* <Button onClick={() => setShowLowStock(!showLowStock)}>
+            {showLowStock ? (
+              <SortDown size={12} color="#000" />
+            ) : (
+              <SortUp size={12} color="#000" />
+            )}
+          </Button> */}
           <ButtonChange
             onClick={() => setShowLowStock(!showLowStock)}
             onHandleChange={showLowStock}
             icon1={<SortDown size={12} color="#000" />}
             icon2={<SortUp size={12} color="#000" />}
           />
-        </Col>
-        <Col>
-          <span className="me-2">Tampilan:</span>
-          {/* <Button onClick={toggleView}>
+          <Button onClick={toggleView}>
             {showTable ? "Table" : "Diagram"}
-          </Button> */}
-          <ButtonChange
-            onClick={toggleView}
-            onHandleChange={showTable}
-            icon1={<BsTable size={12} color="#000" />}
-            icon2={<BarChartFill size={12} color="#000" />}
-          />
+          </Button>
         </Col>
       </Row>
       <Row>
