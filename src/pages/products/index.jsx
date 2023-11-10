@@ -3,23 +3,37 @@ import {Button, Col, Container, Row, Pagination} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import products from "../../utils/data.json";
 import {StarFill, List, Grid} from "react-bootstrap-icons";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import ButtonChange from "../../components/button/ButtonChange";
+import {searchProducts} from "../../utils";
 
+// Komponen untuk halaman produk dengan fungsionalitas sorting, filtering, dan pagination.
 function ProductPage() {
+  // State untuk mengelola tampilan grid atau list
   const [toggleView, setToggleView] = useState(true);
+  // State untuk mengelola urutan pengurutan produk
   const [sortOrder, setSortOrder] = useState("asc");
+  // State untuk menyimpan produk yang sudah diurutkan dan difilter
   const [sortedProducts, setSortedProducts] = useState([]);
+  // State untuk mengelola opsi penyaringan produk
   const [filterOption, setFilterOption] = useState("all");
+  // State untuk menentukan jumlah produk per halaman
   const [productsPerPage, setProductsPerPage] = useState(10);
+  // State untuk menentukan halaman saat ini
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchKeyword, setSearchKeyword] = useState("");
+  const location = useLocation();
 
   // Untuk mengubah tampilan menjadi box atau list
   const handleToggleView = () => {
     setToggleView(!toggleView);
   };
 
+  /**
+   * Mengelola perubahan pengurutan, penyaringan, dan jumlah produk per halaman.
+   * @param {Event} e - Objek event dari perubahan pada elemen Form.
+   */
   const handleSortAndFilter = (e) => {
     const selectedValue = e.target.value;
 
@@ -30,11 +44,19 @@ function ProductPage() {
       // Pengguna memilih opsi filter
       setFilterOption(selectedValue.split("_")[1]);
     } else if (selectedValue.startsWith("perPage")) {
+      // Pengguna memilih jumlah produk per halaman
       setProductsPerPage(parseInt(selectedValue.split("_")[1], 10));
       setCurrentPage(1);
     }
   };
 
+  /**
+   * Menghitung halaman tergantung pada jumlah produk per halaman.
+   * @param {Array} array - Array produk yang akan dipaginasi.
+   * @param {number} currentPage - Halaman saat ini.
+   * @param {number} productsPerPage - Jumlah produk per halaman.
+   * @returns {Array} - Array produk yang ditampilkan pada halaman saat ini.
+   */
   const paginate = (array, currentPage, productsPerPage) => {
     const startIndex = (currentPage - 1) * productsPerPage;
     const endIndex = startIndex + productsPerPage;
@@ -42,6 +64,12 @@ function ProductPage() {
   };
 
   useEffect(() => {
+    /**
+     * Mengurutkan array produk berdasarkan nama.
+     * @param {Array} array - Array produk yang akan diurutkan.
+     * @param {string} order - Urutan pengurutan ("asc" atau "desc").
+     * @returns {Array} - Array produk yang sudah diurutkan.
+     */
     const sortProducts = (array, order) => {
       return array.slice().sort((a, b) => {
         const nameA = a.name.toUpperCase();
@@ -55,6 +83,12 @@ function ProductPage() {
       });
     };
 
+    /**
+     * Menerapkan filter pada array produk berdasarkan stok.
+     * @param {Array} array - Array produk yang akan difilter.
+     * @param {string} filter - Jenis filter ("max" atau "min").
+     * @returns {Array} - Array produk yang sudah difilter.
+     */
     const filterProducts = (array, filter) => {
       if (filter === "all") {
         return array;
@@ -65,8 +99,30 @@ function ProductPage() {
       }
     };
 
-    const filteredAndSortedProducts = filterProducts(
-      sortProducts([...products.data], sortOrder),
+    // Tanggapi perubahan pada URL
+    const searchParams = new URLSearchParams(location.search);
+    const searchParam = searchParams.get("search");
+
+    // Periksa apakah ada parameter pencarian
+    if (searchParam) {
+      setSearchKeyword(searchParam);
+    } else {
+      // Jika tidak ada parameter pencarian, bersihkan keyword pencarian
+      setSearchKeyword("");
+    }
+
+    let filteredAndSortedProducts = products.data;
+
+    // Lakukan pencarian berdasarkan parameter pencarian
+    if (searchParam) {
+      filteredAndSortedProducts = searchProducts(
+        filteredAndSortedProducts,
+        decodeURIComponent(searchParam)
+      );
+    }
+
+    filteredAndSortedProducts = filterProducts(
+      sortProducts([...filteredAndSortedProducts], sortOrder),
       filterOption
     );
 
@@ -77,16 +133,23 @@ function ProductPage() {
     );
 
     setSortedProducts(paginatedProducts);
-  }, [sortOrder, filterOption, productsPerPage, currentPage]);
+  }, [sortOrder, filterOption, productsPerPage, currentPage, location]);
 
+  // Menghitung total halaman berdasarkan jumlah produk per halaman
   const totalPages = Math.ceil(products.data.length / productsPerPage);
 
+  /**
+   * Menangani klik tombol halaman sebelumnya.
+   */
   const handlePrevPage = () => {
     if (currentPage > 1) {
       setCurrentPage((prevPage) => prevPage - 1);
     }
   };
 
+  /**
+   * Menangani klik tombol halaman berikutnya.
+   */
   const handleNextPage = () => {
     if (currentPage < totalPages) {
       setCurrentPage((nextPage) => nextPage + 1);
@@ -112,7 +175,7 @@ function ProductPage() {
               aria-label="Sort and Filter"
               onChange={handleSortAndFilter}
             >
-              <option value="filter_all">All</option>
+              <option value="filter_all">all</option>
               <option value="sort_asc">A - Z</option>
               <option value="sort_desc">Z - A</option>
               <option value="filter_max">Stock (Max)</option>
@@ -126,8 +189,8 @@ function ProductPage() {
               onChange={handleSortAndFilter}
             >
               <option value="perPage_10">10</option>
-              <option value="perPage_15">15</option>
               <option value="perPage_20">20</option>
+              <option value="perPage_30">30</option>
             </Form.Select>
           </Col>
         </Row>

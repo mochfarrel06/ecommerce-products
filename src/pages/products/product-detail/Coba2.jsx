@@ -3,21 +3,37 @@ import {Button, Col, Container, Row, Pagination} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import products from "../../utils/data.json";
 import {StarFill, List, Grid} from "react-bootstrap-icons";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import Form from "react-bootstrap/Form";
+import ButtonChange from "../../components/button/ButtonChange";
+import {searchProducts} from "../../utils";
 
+// Komponen untuk halaman produk dengan fungsionalitas sorting, filtering, dan pagination.
 function ProductPage() {
+  // State untuk mengelola tampilan grid atau list
   const [toggleView, setToggleView] = useState(true);
+  // State untuk mengelola urutan pengurutan produk
   const [sortOrder, setSortOrder] = useState("asc");
+  // State untuk menyimpan produk yang sudah diurutkan dan difilter
   const [sortedProducts, setSortedProducts] = useState([]);
+  // State untuk mengelola opsi penyaringan produk
   const [filterOption, setFilterOption] = useState("all");
-  const [productsPerPage, setProductsPerPage] = useState("10");
+  // State untuk menentukan jumlah produk per halaman
+  const [productsPerPage, setProductsPerPage] = useState(10);
+  // State untuk menentukan halaman saat ini
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchKeyword, setSearchKeyword] = useState("");
+  const location = useLocation();
 
+  // Untuk mengubah tampilan menjadi box atau list
   const handleToggleView = () => {
     setToggleView(!toggleView);
   };
 
+  /**
+   * Mengelola perubahan pengurutan, penyaringan, dan jumlah produk per halaman.
+   * @param {Event} e - Objek event dari perubahan pada elemen Form.
+   */
   const handleSortAndFilter = (e) => {
     const selectedValue = e.target.value;
 
@@ -28,12 +44,19 @@ function ProductPage() {
       // Pengguna memilih opsi filter
       setFilterOption(selectedValue.split("_")[1]);
     } else if (selectedValue.startsWith("perPage")) {
+      // Pengguna memilih jumlah produk per halaman
       setProductsPerPage(parseInt(selectedValue.split("_")[1], 10));
-      //  Reset current page when changing products per page
       setCurrentPage(1);
     }
   };
 
+  /**
+   * Menghitung halaman tergantung pada jumlah produk per halaman.
+   * @param {Array} array - Array produk yang akan dipaginasi.
+   * @param {number} currentPage - Halaman saat ini.
+   * @param {number} productsPerPage - Jumlah produk per halaman.
+   * @returns {Array} - Array produk yang ditampilkan pada halaman saat ini.
+   */
   const paginate = (array, currentPage, productsPerPage) => {
     const startIndex = (currentPage - 1) * productsPerPage;
     const endIndex = startIndex + productsPerPage;
@@ -41,6 +64,12 @@ function ProductPage() {
   };
 
   useEffect(() => {
+    /**
+     * Mengurutkan array produk berdasarkan nama.
+     * @param {Array} array - Array produk yang akan diurutkan.
+     * @param {string} order - Urutan pengurutan ("asc" atau "desc").
+     * @returns {Array} - Array produk yang sudah diurutkan.
+     */
     const sortProducts = (array, order) => {
       return array.slice().sort((a, b) => {
         const nameA = a.name.toUpperCase();
@@ -54,6 +83,12 @@ function ProductPage() {
       });
     };
 
+    /**
+     * Menerapkan filter pada array produk berdasarkan stok.
+     * @param {Array} array - Array produk yang akan difilter.
+     * @param {string} filter - Jenis filter ("max" atau "min").
+     * @returns {Array} - Array produk yang sudah difilter.
+     */
     const filterProducts = (array, filter) => {
       if (filter === "all") {
         return array;
@@ -64,8 +99,17 @@ function ProductPage() {
       }
     };
 
-    const filteredAndSortedProducts = filterProducts(
-      sortProducts([...products.data], sortOrder),
+    let filteredAndSortedProducts = products.data;
+
+    if (searchKeyword) {
+      filteredAndSortedProducts = searchProducts(
+        filteredAndSortedProducts,
+        searchKeyword
+      );
+    }
+
+    filteredAndSortedProducts = filterProducts(
+      sortProducts([...filteredAndSortedProducts], sortOrder),
       filterOption
     );
 
@@ -76,20 +120,26 @@ function ProductPage() {
     );
 
     setSortedProducts(paginatedProducts);
-  }, [sortOrder, filterOption, productsPerPage, currentPage]);
+  }, [sortOrder, filterOption, productsPerPage, currentPage, searchKeyword]);
 
-  const productsPerPages = 10;
+  // Menghitung total halaman berdasarkan jumlah produk per halaman
   const totalPages = Math.ceil(products.data.length / productsPerPage);
 
+  /**
+   * Menangani klik tombol halaman sebelumnya.
+   */
   const handlePrevPage = () => {
     if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
+      setCurrentPage((prevPage) => prevPage - 1);
     }
   };
 
+  /**
+   * Menangani klik tombol halaman berikutnya.
+   */
   const handleNextPage = () => {
     if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
+      setCurrentPage((nextPage) => nextPage + 1);
     }
   };
 
@@ -99,16 +149,12 @@ function ProductPage() {
         <Row className="mb-5 border px-4 py-2 justify-content-between">
           <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
             <span className="me-2">Tampilan:</span>
-            <Button
+            <ButtonChange
               onClick={handleToggleView}
-              className="bg-white btn-outline-light"
-            >
-              {toggleView ? (
-                <Grid size={12} color="#000000" />
-              ) : (
-                <List size={12} color="#000000" />
-              )}
-            </Button>
+              onHandleChange={toggleView}
+              icon1={<Grid size={12} color="#000" />}
+              icon2={<List size={12} color="#000" />}
+            />
           </Col>
           <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
             <span className="me-2">Sort</span>
@@ -116,23 +162,33 @@ function ProductPage() {
               aria-label="Sort and Filter"
               onChange={handleSortAndFilter}
             >
-              <option value="filter_all">All</option>
+              <option value="filter_all">all</option>
               <option value="sort_asc">A - Z</option>
               <option value="sort_desc">Z - A</option>
               <option value="filter_max">Stock (Max)</option>
               <option value="filter_min">Stock (Min)</option>
             </Form.Select>
           </Col>
-          <Col md={2} className="d-flex align-items-center bg-danger">
+          <Col md={2} className="d-flex align-items-center">
             <span className="me-2">Show:</span>
             <Form.Select
               aria-label="Products per Page"
               onChange={handleSortAndFilter}
             >
               <option value="perPage_10">10</option>
-              <option value="perPage_15">15</option>
               <option value="perPage_20">20</option>
+              <option value="perPage_30">30</option>
             </Form.Select>
+          </Col>
+          <Col md={3} className="d-flex align-items-center">
+            <Form onSubmit={(e) => e.preventDefault()}>
+              <Form.Control
+                type="text"
+                placeholder="Search products..."
+                value={searchKeyword}
+                onChange={(e) => setSearchKeyword(e.target.value)}
+              />
+            </Form>
           </Col>
         </Row>
         <Row className="overflow-hidden products-container">
@@ -223,38 +279,33 @@ function ProductPage() {
             </Col>
           ))}
         </Row>
-        <Row className="pagination justify-content-center">
-          <Pagination>
-            <Pagination.Prev
-              onClick={handlePrevPage}
-              disabled={currentPage === 1}
-            />
-            {currentPage > 2 && (
-              <Pagination.Item onClick={() => setCurrentPage(1)}>
-                1
-              </Pagination.Item>
-            )}
-            {currentPage > 3 && <Pagination.Ellipsis disabled />}
-            {Array.from({length: totalPages}).map((_, index) => (
-              <Pagination.Item
-                key={index + 1}
-                active={index + 1 === currentPage}
-                onClick={() => setCurrentPage(index + 1)}
-              >
-                {index + 1}
-              </Pagination.Item>
-            ))}
-            {currentPage < totalPages - 2 && <Pagination.Ellipsis disabled />}
-            {currentPage < totalPages - 1 && (
-              <Pagination.Item onClick={() => setCurrentPage(totalPages)}>
-                {totalPages}
-              </Pagination.Item>
-            )}
-            <Pagination.Next
-              onClick={handleNextPage}
-              disabled={currentPage === totalPages}
-            />
-          </Pagination>
+        <Row className="mb-5 border px-4 py-2 justify-content-between">
+          <Col className="d-flex align-items-center mb-2 mb-md-0">
+            <Pagination>
+              <Pagination.Prev
+                onClick={handlePrevPage}
+                disabled={currentPage === 1}
+              />
+              {Array.from({length: totalPages}).map((_, index) => (
+                <Pagination.Item
+                  key={index + 1}
+                  active={index + 1 === currentPage}
+                  onClick={() => setCurrentPage(index + 1)}
+                >
+                  {index + 1}
+                </Pagination.Item>
+              ))}
+              <Pagination.Next
+                onClick={handleNextPage}
+                disabled={currentPage === totalPages}
+              />
+            </Pagination>
+          </Col>
+          <Col className="d-flex align-items-center mb-2 mb-md-0">
+            Showing {(currentPage - 1) * productsPerPage + 1} to{" "}
+            {Math.min(currentPage * productsPerPage, products.data.length)} of{" "}
+            {products.data.length} items
+          </Col>
         </Row>
       </Container>
     </div>

@@ -15,3 +15,18 @@ export const navLinks = [
     text: "Tables",
   },
 ];
+
+// Fungsi untuk melakukan pencarian berdasarkan keyword pada nama produk
+export const searchProducts = (products, keyword) => {
+  const lowercaseKeyword = keyword.toLowerCase().trim();
+
+  if (!lowercaseKeyword) {
+    // Jika keyword kosong, kembalikan seluruh produk
+    return products;
+  }
+
+  // Lakukan pencarian berdasarkan nama produk
+  return products.filter((product) =>
+    product.name.toLowerCase().includes(lowercaseKeyword)
+  );
+};
