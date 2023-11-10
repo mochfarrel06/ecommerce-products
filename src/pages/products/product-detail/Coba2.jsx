@@ -7,6 +7,7 @@ import {Link, useLocation} from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import ButtonChange from "../../components/button/ButtonChange";
 import {searchProducts} from "../../utils";
+import FilterSortForm from "./components/FilterSortForm";
 
 // Komponen untuk halaman produk dengan fungsionalitas sorting, filtering, dan pagination.
 function ProductPage() {
@@ -99,12 +100,19 @@ function ProductPage() {
       }
     };
 
+    // Tanggapi perubahan pada URL
+    const searchParams = new URLSearchParams(location.search);
+    const searchParam = searchParams.get("search");
+
+    setSearchKeyword(searchParam || "");
+
     let filteredAndSortedProducts = products.data;
 
-    if (searchKeyword) {
+    // Lakukan pencarian berdasarkan parameter pencarian
+    if (searchParam) {
       filteredAndSortedProducts = searchProducts(
         filteredAndSortedProducts,
-        searchKeyword
+        decodeURIComponent(searchParam)
       );
     }
 
@@ -120,7 +128,7 @@ function ProductPage() {
     );
 
     setSortedProducts(paginatedProducts);
-  }, [sortOrder, filterOption, productsPerPage, currentPage, searchKeyword]);
+  }, [sortOrder, filterOption, productsPerPage, currentPage, location]);
 
   // Menghitung total halaman berdasarkan jumlah produk per halaman
   const totalPages = Math.ceil(products.data.length / productsPerPage);
@@ -146,7 +154,7 @@ function ProductPage() {
   return (
     <div className="products-app">
       <Container>
-        <Row className="mb-5 border px-4 py-2 justify-content-between">
+        {/* <Row className="mb-5 border px-4 py-2 justify-content-between">
           <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
             <span className="me-2">Tampilan:</span>
             <ButtonChange
@@ -180,17 +188,14 @@ function ProductPage() {
               <option value="perPage_30">30</option>
             </Form.Select>
           </Col>
-          <Col md={3} className="d-flex align-items-center">
-            <Form onSubmit={(e) => e.preventDefault()}>
-              <Form.Control
-                type="text"
-                placeholder="Search products..."
-                value={searchKeyword}
-                onChange={(e) => setSearchKeyword(e.target.value)}
-              />
-            </Form>
-          </Col>
-        </Row>
+        </Row> */}
+        <FilterSortForm
+          handleToggleView={handleToggleView}
+          toggleView={toggleView}
+          icon1={<Grid size={12} color="#000" />}
+          icon2={<List size={12} color="#000" />}
+          handleSortAndFilter={handleSortAndFilter}
+        />
         <Row className="overflow-hidden products-container">
           {sortedProducts.map((datas, i) => (
             <Col

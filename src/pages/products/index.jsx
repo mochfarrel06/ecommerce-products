@@ -7,6 +7,7 @@ import {Link, useLocation} from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import ButtonChange from "../../components/button/ButtonChange";
 import {searchProducts} from "../../utils";
+import FilterSortForm from "./components/FilterSortForm";
 
 // Komponen untuk halaman produk dengan fungsionalitas sorting, filtering, dan pagination.
 function ProductPage() {
@@ -103,13 +104,7 @@ function ProductPage() {
     const searchParams = new URLSearchParams(location.search);
     const searchParam = searchParams.get("search");
 
-    // Periksa apakah ada parameter pencarian
-    if (searchParam) {
-      setSearchKeyword(searchParam);
-    } else {
-      // Jika tidak ada parameter pencarian, bersihkan keyword pencarian
-      setSearchKeyword("");
-    }
+    setSearchKeyword(searchParam || "");
 
     let filteredAndSortedProducts = products.data;
 
@@ -159,41 +154,13 @@ function ProductPage() {
   return (
     <div className="products-app">
       <Container>
-        <Row className="mb-5 border px-4 py-2 justify-content-between">
-          <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
-            <span className="me-2">Tampilan:</span>
-            <ButtonChange
-              onClick={handleToggleView}
-              onHandleChange={toggleView}
-              icon1={<Grid size={12} color="#000" />}
-              icon2={<List size={12} color="#000" />}
-            />
-          </Col>
-          <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
-            <span className="me-2">Sort</span>
-            <Form.Select
-              aria-label="Sort and Filter"
-              onChange={handleSortAndFilter}
-            >
-              <option value="filter_all">all</option>
-              <option value="sort_asc">A - Z</option>
-              <option value="sort_desc">Z - A</option>
-              <option value="filter_max">Stock (Max)</option>
-              <option value="filter_min">Stock (Min)</option>
-            </Form.Select>
-          </Col>
-          <Col md={2} className="d-flex align-items-center">
-            <span className="me-2">Show:</span>
-            <Form.Select
-              aria-label="Products per Page"
-              onChange={handleSortAndFilter}
-            >
-              <option value="perPage_10">10</option>
-              <option value="perPage_20">20</option>
-              <option value="perPage_30">30</option>
-            </Form.Select>
-          </Col>
-        </Row>
+        <FilterSortForm
+          handleToggleView={handleToggleView}
+          toggleView={toggleView}
+          icon1={<Grid size={12} color="#000" />}
+          icon2={<List size={12} color="#000" />}
+          handleSortAndFilter={handleSortAndFilter}
+        />
         <Row className="overflow-hidden products-container">
           {sortedProducts.map((datas, i) => (
             <Col
