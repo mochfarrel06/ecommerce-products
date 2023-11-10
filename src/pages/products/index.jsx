@@ -172,7 +172,11 @@ function ProductPage() {
             >
               {toggleView ? (
                 <Card className="">
-                  <Card.Img variant="top" src={datas.primary_image.thumbnail} />
+                  <Card.Img
+                    variant="top"
+                    src={datas.primary_image.thumbnail}
+                    className="img-fluid"
+                  />
                   <Card.Body className="p-3">
                     <Link to={`/products/${datas.product_id}`}>
                       <Card.Text className="text-truncate">
@@ -206,41 +210,53 @@ function ProductPage() {
                   </Card.Body>
                 </Card>
               ) : (
-                <Card>
-                  <Card.Header>{datas.name}</Card.Header>
-                  <Card.Body>
-                    <Link to={`/products/${datas.product_id}`}>
-                      <Card.Text className="text-truncate">
-                        {datas.name}
-                      </Card.Text>
-                    </Link>
-                    <Card.Title>{datas.price.text_idr}</Card.Title>
-                    <div className="rating w-100 d-flex justify-content-between align-items-center">
-                      <div className="d-flex py-2 gap-1">
-                        <div className="d-flex gap-2 align-items-center">
-                          <StarFill size={14} color="#fed700" />
-                          <Card.Text>
-                            {datas.stats.averageRating
-                              ? datas.stats.averageRating
-                              : "0"}{" "}
-                            |
+                <Card className="overflow-hidden">
+                  <Row className="">
+                    <Col md={2}>
+                      <Card.Img
+                        variant="top"
+                        src={datas.primary_image.thumbnail}
+                        className="img-fluid"
+                      />
+                    </Col>
+                    <Col md={10}>
+                      <Card.Body>
+                        <Link to={`/products/${datas.product_id}`}>
+                          <Card.Text className="text-truncate">
+                            {datas.name}
                           </Card.Text>
+                        </Link>
+                        <Card.Title>{datas.price.text_idr}</Card.Title>
+                        <div className="rating d-flex justify-content-between align-items-center">
+                          <div className="d-flex flex-column">
+                            <div className="d-flex align-items-center gap-2 mb-1">
+                              <StarFill size={14} color="#fed700" />
+                              <Card.Text>
+                                {datas.stats.averageRating
+                                  ? datas.stats.averageRating
+                                  : "0"}{" "}
+                                |
+                              </Card.Text>
+                            </div>
+                            <div>
+                              {datas.label_groups.map(
+                                (labels, i) =>
+                                  i >= 0 &&
+                                  i < 1 && (
+                                    <Card.Text key={i}>
+                                      {labels.title}
+                                    </Card.Text>
+                                  )
+                              )}
+                            </div>
+                          </div>
+                          <div>
+                            <Card.Text>Stock {datas.stock}</Card.Text>
+                          </div>
                         </div>
-                        <div>
-                          {datas.label_groups.map((labels, i) => {
-                            if (i >= 0 && i < 1) {
-                              return (
-                                <Card.Text key={i}>{labels.title}</Card.Text>
-                              );
-                            }
-                          })}
-                        </div>
-                      </div>
-                      <div>
-                        <Card.Text>Stock {datas.stock}</Card.Text>
-                      </div>
-                    </div>
-                  </Card.Body>
+                      </Card.Body>
+                    </Col>
+                  </Row>
                 </Card>
               )}
             </Col>
