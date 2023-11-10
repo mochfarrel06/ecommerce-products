@@ -30,7 +30,7 @@ function NavbarComponent() {
     <Navbar expand="lg" className="bg-primary">
       <Container>
         <Link to={"/"}>
-          <Navbar.Brand href="#home">Unitech</Navbar.Brand>
+          <Navbar.Brand>Unitech</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -9,6 +9,7 @@ function FilterSortForm({
   icon1,
   icon2,
   handleSortAndFilter,
+  filterOption,
 }) {
   return (
     <Row className="mb-5 border px-4 py-2 justify-content-between">
@@ -24,14 +25,17 @@ function FilterSortForm({
       <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
         <span className="me-2">Sort</span>
         <Form.Select
-          aria-label="Sort and Filter"
+          aria-label="Filter"
           onChange={handleSortAndFilter}
+          value={`filter_${filterOption}`}
         >
-          <option value="filter_all">all</option>
-          <option value="sort_asc">A - Z</option>
-          <option value="sort_desc">Z - A</option>
-          <option value="filter_max">Stock (Max)</option>
-          <option value="filter_min">Stock (Min)</option>
+          <option value="filter_all">Show All</option>
+          <option value="filter_maxRatingMaxStock">
+            Rating Tertinggi dan Stok Terbanyak
+          </option>
+          <option value="filter_maxRatingMinStock">
+            Rating Tertinggi dan Stok Terendah
+          </option>
         </Form.Select>
       </Col>
       <Col md={2} className="d-flex align-items-center">

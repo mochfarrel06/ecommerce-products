@@ -5,7 +5,7 @@ import ProductPage from "./pages/products";
 import NavbarComponent from "./layouts/navbar";
 import FooterComponent from "./layouts/footer";
 import TablesPage from "./pages/tables";
-import ProductDetail from "./pages/products/product-detail/ProductDetail";
+import ProductDetail from "./pages/products/components/ProductDetail";
 
 function App() {
   return (

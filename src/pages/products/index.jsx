@@ -89,12 +89,25 @@ function ProductPage() {
      * @returns {Array} - Array produk yang sudah difilter.
      */
     const filterProducts = (array, filter) => {
-      if (filter === "all") {
-        return array;
-      } else if (filter === "max") {
-        return array.slice().sort((a, b) => b.stock - a.stock);
-      } else {
-        return array.slice().sort((a, b) => a.stock - b.stock);
+      switch (filter) {
+        case "maxRatingMaxStock":
+          return array.slice().sort((a, b) => {
+            if (b.stats.averageRating !== a.stats.averageRating) {
+              return b.stats.averageRating - a.stats.averageRating;
+            } else {
+              return b.stock - a.stock;
+            }
+          });
+        case "maxRatingMinStock":
+          return array.slice().sort((a, b) => {
+            if (b.stats.averageRating !== a.stats.averageRating) {
+              return b.stats.averageRating - a.stats.averageRating;
+            } else {
+              return a.stock - b.stock;
+            }
+          });
+        default:
+          return array;
       }
     };
 
@@ -158,6 +171,7 @@ function ProductPage() {
           icon1={<Grid size={12} color="#000" />}
           icon2={<List size={12} color="#000" />}
           handleSortAndFilter={handleSortAndFilter}
+          filterOption={filterOption}
         />
         <Row className="overflow-hidden products-container mb-5">
           {sortedProducts.map((datas, i) => (
@@ -211,7 +225,7 @@ function ProductPage() {
                 </Card>
               ) : (
                 <Card className="overflow-hidden">
-                  <Row className="">
+                  <Row>
                     <Col md={2}>
                       <Card.Img
                         variant="top"
@@ -219,7 +233,7 @@ function ProductPage() {
                         className="img-fluid"
                       />
                     </Col>
-                    <Col md={10}>
+                    <Col md={9}>
                       <Card.Body>
                         <Link to={`/products/${datas.product_id}`}>
                           <Card.Text className="text-truncate">
