@@ -61,6 +61,12 @@ header {
   );
 }
 
+/* HomePage */
+.home__page {
+  min-height: 100vh;
+  padding-top: 12rem;
+}
+
 /* Product App */
 .products-app,
 .details-app {

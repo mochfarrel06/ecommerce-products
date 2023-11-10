@@ -6,7 +6,6 @@ import {StarFill, List, Grid} from "react-bootstrap-icons";
 import {Link, useLocation} from "react-router-dom";
 import {searchProducts} from "../../utils";
 import FilterSortForm from "./components/FilterSortForm";
-import ProductCard from "./components/ProductCard";
 
 // Komponen untuk halaman produk dengan fungsionalitas sorting, filtering, dan pagination.
 function ProductPage() {
@@ -160,7 +159,94 @@ function ProductPage() {
           icon2={<List size={12} color="#000" />}
           handleSortAndFilter={handleSortAndFilter}
         />
-        <ProductCard sortedProducts={sortedProducts} toggleView={toggleView} />
+        <Row className="overflow-hidden products-container">
+          {sortedProducts.map((datas, i) => (
+            <Col
+              key={i}
+              lg={toggleView ? 2 : 12}
+              md={toggleView ? 2 : 12}
+              sm={toggleView ? 12 : 12}
+              xs={12}
+              className="mb-3"
+            >
+              {toggleView ? (
+                <Card className="">
+                  <Card.Img variant="top" src={datas.primary_image.thumbnail} />
+                  <Card.Body>
+                    <Link to={`/products/${datas.product_id}`}>
+                      <Card.Text className="text-truncate">
+                        {datas.name}
+                      </Card.Text>
+                    </Link>
+                    <Card.Title>{datas.price.text_idr}</Card.Title>
+                    <div className="rating w-100 d-flex justify-content-between align-items-center">
+                      <div className="d-flex py-2 gap-1">
+                        <div className="d-flex gap-2 align-items-center">
+                          <StarFill size={14} color="#fed700" />
+                          <Card.Text>
+                            {datas.stats.averageRating
+                              ? datas.stats.averageRating
+                              : "0"}{" "}
+                            |
+                          </Card.Text>
+                        </div>
+                        <div>
+                          {datas.label_groups.map((labels, i) => {
+                            if (i >= 0 && i < 1) {
+                              return (
+                                <Card.Text key={i}>{labels.title}</Card.Text>
+                              );
+                            }
+                          })}
+                        </div>
+                      </div>
+                      <div>
+                        <Card.Text>Stock {datas.stock}</Card.Text>
+                      </div>
+                    </div>
+                  </Card.Body>
+                </Card>
+              ) : (
+                <Card>
+                  <Card.Header>{datas.name}</Card.Header>
+                  <Card.Body>
+                    <Link to={`/products/${datas.product_id}`}>
+                      <Card.Text className="text-truncate">
+                        {datas.name}
+                      </Card.Text>
+                    </Link>
+                    <Card.Title>{datas.price.text_idr}</Card.Title>
+                    <div className="rating w-100 d-flex justify-content-between align-items-center">
+                      <div className="d-flex py-2 gap-1">
+                        <div className="d-flex gap-2 align-items-center">
+                          <StarFill size={14} color="#fed700" />
+                          <Card.Text>
+                            {datas.stats.averageRating
+                              ? datas.stats.averageRating
+                              : "0"}{" "}
+                            |
+                          </Card.Text>
+                        </div>
+                        <div>
+                          {datas.label_groups.map((labels, i) => {
+                            if (i >= 0 && i < 1) {
+                              return (
+                                <Card.Text key={i}>{labels.title}</Card.Text>
+                              );
+                            }
+                          })}
+                        </div>
+                      </div>
+                      <div>
+                        <Card.Text>Stock {datas.stock}</Card.Text>
+                      </div>
+                    </div>
+                  </Card.Body>
+                </Card>
+              )}
+            </Col>
+          ))}
+        </Row>
         <Row className="mb-5 border px-4 py-2 justify-content-between">
           <Col className="d-flex align-items-center mb-2 mb-md-0">
             <Pagination>

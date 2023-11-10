@@ -30,3 +30,5 @@ export const searchProducts = (products, keyword) => {
     product.name.toLowerCase().includes(lowercaseKeyword)
   );
 };
+
+// Untuk memberikan landing page
