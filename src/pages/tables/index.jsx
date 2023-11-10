@@ -48,9 +48,6 @@ function TablesPage() {
         </Col>
         <Col>
           <span className="me-2">Tampilan:</span>
-          {/* <Button onClick={toggleView}>
-            {showTable ? "Table" : "Diagram"}
-          </Button> */}
           <ButtonChange
             onClick={toggleView}
             onHandleChange={showTable}

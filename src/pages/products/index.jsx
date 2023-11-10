@@ -12,7 +12,7 @@ function ProductPage() {
   const [sortOrder, setSortOrder] = useState("asc");
   const [sortedProducts, setSortedProducts] = useState([]);
   const [filterOption, setFilterOption] = useState("all");
-  const [productsPerPage, setProductsPerPage] = useState("10");
+  const [productsPerPage, setProductsPerPage] = useState(10);
   const [currentPage, setCurrentPage] = useState(1);
 
   // Untuk mengubah tampilan menjadi box atau list
@@ -83,13 +83,13 @@ function ProductPage() {
 
   const handlePrevPage = () => {
     if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
+      setCurrentPage((prevPage) => prevPage - 1);
     }
   };
 
   const handleNextPage = () => {
     if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
+      setCurrentPage((nextPage) => nextPage + 1);
     }
   };
 
