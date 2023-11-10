@@ -159,12 +159,13 @@ function ProductPage() {
           icon2={<List size={12} color="#000" />}
           handleSortAndFilter={handleSortAndFilter}
         />
-        <Row className="overflow-hidden products-container">
+        <Row className="overflow-hidden products-container mb-5">
           {sortedProducts.map((datas, i) => (
             <Col
               key={i}
-              lg={toggleView ? 2 : 12}
-              md={toggleView ? 2 : 12}
+              xl={toggleView ? 2 : 12}
+              lg={toggleView ? 3 : 12}
+              md={toggleView ? 4 : 12}
               sm={toggleView ? 12 : 12}
               xs={12}
               className="mb-3"
@@ -172,33 +173,31 @@ function ProductPage() {
               {toggleView ? (
                 <Card className="">
                   <Card.Img variant="top" src={datas.primary_image.thumbnail} />
-                  <Card.Body>
+                  <Card.Body className="p-3">
                     <Link to={`/products/${datas.product_id}`}>
                       <Card.Text className="text-truncate">
                         {datas.name}
                       </Card.Text>
                     </Link>
-                    <Card.Title>{datas.price.text_idr}</Card.Title>
-                    <div className="rating w-100 d-flex justify-content-between align-items-center">
-                      <div className="d-flex py-2 gap-1">
-                        <div className="d-flex gap-2 align-items-center">
-                          <StarFill size={14} color="#fed700" />
-                          <Card.Text>
-                            {datas.stats.averageRating
-                              ? datas.stats.averageRating
-                              : "0"}{" "}
-                            |
-                          </Card.Text>
-                        </div>
-                        <div>
-                          {datas.label_groups.map((labels, i) => {
-                            if (i >= 0 && i < 1) {
-                              return (
-                                <Card.Text key={i}>{labels.title}</Card.Text>
-                              );
-                            }
-                          })}
-                        </div>
+                    <Card.Title className="mt-3">
+                      {datas.price.text_idr}
+                    </Card.Title>
+                    <div className="rating w-100 d-flex flex-column gap-2 mt-3">
+                      <div className="d-flex align-items-center gap-2">
+                        <StarFill size={14} color="#fed700" />
+                        <Card.Text className="mb-0">
+                          {datas.stats.averageRating
+                            ? datas.stats.averageRating
+                            : "0"}{" "}
+                          |
+                        </Card.Text>
+                        {datas.label_groups.map((labels, i) => {
+                          if (i >= 0 && i < 1) {
+                            return (
+                              <Card.Text key={i}>{labels.title}</Card.Text>
+                            );
+                          }
+                        })}
                       </div>
                       <div>
                         <Card.Text>Stock {datas.stock}</Card.Text>
@@ -247,9 +246,9 @@ function ProductPage() {
             </Col>
           ))}
         </Row>
-        <Row className="mb-5 border px-4 py-2 justify-content-between">
-          <Col className="d-flex align-items-center mb-2 mb-md-0">
-            <Pagination>
+        <Row className="border px-4 py-2 justify-content-between">
+          <Col md={6} className="d-flex mb-2 mb-md-0">
+            <Pagination className="mb-0">
               <Pagination.Prev
                 onClick={handlePrevPage}
                 disabled={currentPage === 1}
@@ -269,7 +268,7 @@ function ProductPage() {
               />
             </Pagination>
           </Col>
-          <Col className="d-flex align-items-center mb-2 mb-md-0">
+          <Col md={3} className="d-flex align-items-center mb-2 mb-md-0">
             Showing {(currentPage - 1) * productsPerPage + 1} to{" "}
             {Math.min(currentPage * productsPerPage, products.data.length)} of{" "}
             {products.data.length} items
