@@ -2,8 +2,9 @@ import React from "react";
 import {Navbar, Container, Nav, Form, Button} from "react-bootstrap";
 import {navLinks} from "../../utils/index";
 import {NavLink} from "react-router-dom";
+import {Search} from "react-bootstrap-icons";
 
-const NavbarComponent = () => {
+function NavbarComponent() {
   return (
     <Navbar expand="lg" className="">
       <Container>
@@ -17,19 +18,11 @@ const NavbarComponent = () => {
               </div>
             ))}
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
+          <Search size={20} color="#fff" />
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
-};
+}
 
 export default NavbarComponent;

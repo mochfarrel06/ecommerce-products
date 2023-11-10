@@ -5,6 +5,7 @@ import products from "../../utils/data.json";
 import {StarFill, List, Grid} from "react-bootstrap-icons";
 import {Link} from "react-router-dom";
 import Form from "react-bootstrap/Form";
+import ButtonChange from "../../components/button/ButtonChange";
 
 function ProductPage() {
   const [toggleView, setToggleView] = useState(true);
@@ -14,6 +15,7 @@ function ProductPage() {
   const [productsPerPage, setProductsPerPage] = useState("10");
   const [currentPage, setCurrentPage] = useState(1);
 
+  // Untuk mengubah tampilan menjadi box atau list
   const handleToggleView = () => {
     setToggleView(!toggleView);
   };
@@ -29,7 +31,6 @@ function ProductPage() {
       setFilterOption(selectedValue.split("_")[1]);
     } else if (selectedValue.startsWith("perPage")) {
       setProductsPerPage(parseInt(selectedValue.split("_")[1], 10));
-      //  Reset current page when changing products per page
       setCurrentPage(1);
     }
   };
@@ -78,7 +79,6 @@ function ProductPage() {
     setSortedProducts(paginatedProducts);
   }, [sortOrder, filterOption, productsPerPage, currentPage]);
 
-  const productsPerPages = 10;
   const totalPages = Math.ceil(products.data.length / productsPerPage);
 
   const handlePrevPage = () => {
@@ -99,16 +99,12 @@ function ProductPage() {
         <Row className="mb-5 border px-4 py-2 justify-content-between">
           <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
             <span className="me-2">Tampilan:</span>
-            <Button
+            <ButtonChange
               onClick={handleToggleView}
-              className="bg-white btn-outline-light"
-            >
-              {toggleView ? (
-                <Grid size={12} color="#000000" />
-              ) : (
-                <List size={12} color="#000000" />
-              )}
-            </Button>
+              onHandleChange={toggleView}
+              icon1={<Grid size={12} color="#000" />}
+              icon2={<List size={12} color="#000" />}
+            />
           </Col>
           <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
             <span className="me-2">Sort</span>
@@ -123,7 +119,7 @@ function ProductPage() {
               <option value="filter_min">Stock (Min)</option>
             </Form.Select>
           </Col>
-          <Col md={2} className="d-flex align-items-center bg-danger">
+          <Col md={2} className="d-flex align-items-center">
             <span className="me-2">Show:</span>
             <Form.Select
               aria-label="Products per Page"
@@ -223,38 +219,33 @@ function ProductPage() {
             </Col>
           ))}
         </Row>
-        <Row className="pagination justify-content-center">
-          <Pagination>
-            <Pagination.Prev
-              onClick={handlePrevPage}
-              disabled={currentPage === 1}
-            />
-            {currentPage > 2 && (
-              <Pagination.Item onClick={() => setCurrentPage(1)}>
-                1
-              </Pagination.Item>
-            )}
-            {currentPage > 3 && <Pagination.Ellipsis disabled />}
-            {Array.from({length: totalPages}).map((_, index) => (
-              <Pagination.Item
-                key={index + 1}
-                active={index + 1 === currentPage}
-                onClick={() => setCurrentPage(index + 1)}
-              >
-                {index + 1}
-              </Pagination.Item>
-            ))}
-            {currentPage < totalPages - 2 && <Pagination.Ellipsis disabled />}
-            {currentPage < totalPages - 1 && (
-              <Pagination.Item onClick={() => setCurrentPage(totalPages)}>
-                {totalPages}
-              </Pagination.Item>
-            )}
-            <Pagination.Next
-              onClick={handleNextPage}
-              disabled={currentPage === totalPages}
-            />
-          </Pagination>
+        <Row className="mb-5 border px-4 py-2 justify-content-between">
+          <Col className="d-flex align-items-center mb-2 mb-md-0">
+            <Pagination>
+              <Pagination.Prev
+                onClick={handlePrevPage}
+                disabled={currentPage === 1}
+              />
+              {Array.from({length: totalPages}).map((_, index) => (
+                <Pagination.Item
+                  key={index + 1}
+                  active={index + 1 === currentPage}
+                  onClick={() => setCurrentPage(index + 1)}
+                >
+                  {index + 1}
+                </Pagination.Item>
+              ))}
+              <Pagination.Next
+                onClick={handleNextPage}
+                disabled={currentPage === totalPages}
+              />
+            </Pagination>
+          </Col>
+          <Col className="d-flex align-items-center mb-2 mb-md-0">
+            Showing {(currentPage - 1) * productsPerPage + 1} to{" "}
+            {Math.min(currentPage * productsPerPage, products.data.length)} of{" "}
+            {products.data.length} items
+          </Col>
         </Row>
       </Container>
     </div>

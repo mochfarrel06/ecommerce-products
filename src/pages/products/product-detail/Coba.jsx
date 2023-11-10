@@ -14,6 +14,7 @@ function ProductPage() {
   const [productsPerPage, setProductsPerPage] = useState("10");
   const [currentPage, setCurrentPage] = useState(1);
 
+  // Untuk mengubah tampilan menjadi box atau list
   const handleToggleView = () => {
     setToggleView(!toggleView);
   };
@@ -29,7 +30,6 @@ function ProductPage() {
       setFilterOption(selectedValue.split("_")[1]);
     } else if (selectedValue.startsWith("perPage")) {
       setProductsPerPage(parseInt(selectedValue.split("_")[1], 10));
-      //  Reset current page when changing products per page
       setCurrentPage(1);
     }
   };
@@ -95,9 +95,9 @@ function ProductPage() {
   return (
     <div className="products-app">
       <Container>
-        <Row className="menus-products mb-5 border px-4 py-2 justify-content-between">
-          <Col md={2} className="d-flex align-items-center gap-3">
-            Appreance:
+        <Row className="mb-5 border px-4 py-2 justify-content-between">
+          <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
+            <span className="me-2">Tampilan:</span>
             <Button
               onClick={handleToggleView}
               className="bg-white btn-outline-light"
@@ -109,8 +109,8 @@ function ProductPage() {
               )}
             </Button>
           </Col>
-          <Col md={2} className="d-flex align-items-center gap-3">
-            Sort by:
+          <Col md={2} className="d-flex align-items-center mb-2 mb-md-0">
+            <span className="me-2">Sort</span>
             <Form.Select
               aria-label="Sort and Filter"
               onChange={handleSortAndFilter}
@@ -122,8 +122,8 @@ function ProductPage() {
               <option value="filter_min">Stock (Min)</option>
             </Form.Select>
           </Col>
-          <Col md={2} className="">
-            Show:
+          <Col md={2} className="d-flex align-items-center">
+            <span className="me-2">Show:</span>
             <Form.Select
               aria-label="Products per Page"
               onChange={handleSortAndFilter}
@@ -136,7 +136,14 @@ function ProductPage() {
         </Row>
         <Row className="overflow-hidden products-container">
           {sortedProducts.map((datas, i) => (
-            <Col key={i} md={toggleView ? 2 : 12} className="">
+            <Col
+              key={i}
+              lg={toggleView ? 2 : 12}
+              md={toggleView ? 2 : 12}
+              sm={toggleView ? 12 : 12}
+              xs={12}
+              className="mb-3"
+            >
               {toggleView ? (
                 <Card className="">
                   <Card.Img variant="top" src={datas.primary_image.thumbnail} />
@@ -176,52 +183,72 @@ function ProductPage() {
                 </Card>
               ) : (
                 <Card>
-                  <Card.Header>Featured</Card.Header>
+                  <Card.Header>{datas.name}</Card.Header>
                   <Card.Body>
-                    <Card.Title>Special title treatment</Card.Title>
-                    <Card.Text>
-                      With supporting text below as a natural lead-in to
-                      additional content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Link to={`/products/${datas.product_id}`}>
+                      <Card.Text className="text-truncate">
+                        {datas.name}
+                      </Card.Text>
+                    </Link>
+                    <Card.Title>{datas.price.text_idr}</Card.Title>
+                    <div className="rating w-100 d-flex justify-content-between align-items-center">
+                      <div className="d-flex py-2 gap-1">
+                        <div className="d-flex gap-2 align-items-center">
+                          <StarFill size={14} color="#fed700" />
+                          <Card.Text>
+                            {datas.stats.averageRating
+                              ? datas.stats.averageRating
+                              : "0"}{" "}
+                            |
+                          </Card.Text>
+                        </div>
+                        <div>
+                          {datas.label_groups.map((labels, i) => {
+                            if (i >= 0 && i < 1) {
+                              return (
+                                <Card.Text key={i}>{labels.title}</Card.Text>
+                              );
+                            }
+                          })}
+                        </div>
+                      </div>
+                      <div>
+                        <Card.Text>Stock {datas.stock}</Card.Text>
+                      </div>
+                    </div>
                   </Card.Body>
                 </Card>
               )}
             </Col>
           ))}
         </Row>
-        <Row className="pagination justify-content-center">
-          <Pagination>
-            <Pagination.Prev
-              onClick={handlePrevPage}
-              disabled={currentPage === 1}
-            />
-            {currentPage > 2 && (
-              <Pagination.Item onClick={() => setCurrentPage(1)}>
-                1
-              </Pagination.Item>
-            )}
-            {currentPage > 3 && <Pagination.Ellipsis disabled />}
-            {Array.from({length: totalPages}).map((_, index) => (
-              <Pagination.Item
-                key={index + 1}
-                active={index + 1 === currentPage}
-                onClick={() => setCurrentPage(index + 1)}
-              >
-                {index + 1}
-              </Pagination.Item>
-            ))}
-            {currentPage < totalPages - 2 && <Pagination.Ellipsis disabled />}
-            {currentPage < totalPages - 1 && (
-              <Pagination.Item onClick={() => setCurrentPage(totalPages)}>
-                {totalPages}
-              </Pagination.Item>
-            )}
-            <Pagination.Next
-              onClick={handleNextPage}
-              disabled={currentPage === totalPages}
-            />
-          </Pagination>
+        <Row className="mb-5 border px-4 py-2 justify-content-between">
+          <Col className="d-flex align-items-center mb-2 mb-md-0">
+            <Pagination>
+              <Pagination.Prev
+                onClick={handlePrevPage}
+                disabled={currentPage === 1}
+              />
+              {Array.from({length: totalPages}).map((_, index) => (
+                <Pagination.Item
+                  key={index + 1}
+                  active={index + 1 === currentPage}
+                  onClick={() => setCurrentPage(index + 1)}
+                >
+                  {index + 1}
+                </Pagination.Item>
+              ))}
+              <Pagination.Next
+                onClick={handleNextPage}
+                disabled={currentPage === totalPages}
+              />
+            </Pagination>
+          </Col>
+          <Col className="d-flex align-items-center mb-2 mb-md-0">
+            Showing {(currentPage - 1) * productsPerPage + 1} to{" "}
+            {Math.min(currentPage * productsPerPage, products.data.length)} of{" "}
+            {products.data.length} items
+          </Col>
         </Row>
       </Container>
     </div>
