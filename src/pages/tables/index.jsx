@@ -36,8 +36,8 @@ function TablesPage() {
 
   return (
     <Container className="products-app">
-      <Row className="mb-5 border px-4 py-2">
-        <Col>
+      <Row className="border px-4 py-2">
+        <Col md={2}>
           <span className="me-2">Sort:</span>
           <ButtonChange
             onClick={() => setShowLowStock(!showLowStock)}
@@ -46,7 +46,7 @@ function TablesPage() {
             icon2={<SortUp size={12} color="#000" />}
           />
         </Col>
-        <Col>
+        <Col md={2} className="">
           <span className="me-2">Tampilan:</span>
           <ButtonChange
             onClick={toggleView}
@@ -80,7 +80,7 @@ function TablesPage() {
               </tbody>
             </Table>
           ) : (
-            <ResponsiveContainer width="100%" height={400}>
+            <ResponsiveContainer width="100%" height={500} className="mt-5">
               <BarChart
                 data={topStockProducts}
                 margin={{top: 20, right: 30, left: 20, bottom: 5}}
