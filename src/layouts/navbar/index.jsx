@@ -8,7 +8,7 @@ import {
   Button,
 } from "react-bootstrap";
 import {Search} from "react-bootstrap-icons";
-import {NavLink, useNavigate} from "react-router-dom";
+import {Link, NavLink, useNavigate} from "react-router-dom";
 import {navLinks} from "../../utils/index";
 
 function NavbarComponent() {
@@ -27,9 +27,11 @@ function NavbarComponent() {
   };
 
   return (
-    <Navbar expand="lg" className="">
+    <Navbar expand="lg" className="bg-primary">
       <Container>
-        <Navbar.Brand href="#home">Unitech</Navbar.Brand>
+        <Link to={"/"}>
+          <Navbar.Brand href="#home">Unitech</Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
